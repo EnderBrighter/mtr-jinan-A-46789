@@ -1,0 +1,104 @@
+{
+  "parts": [
+    {
+      "names": [
+        "floor"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "FLOOR"
+    },
+    {
+      "names": [
+        "way_-1_0"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_-1_1"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_-1_2"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_-1_3"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_-1_4"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_1_0"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_1_1"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_1_2"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_1_3"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    },
+    {
+      "names": [
+        "way_1_4"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DOORWAY"
+    }
+  ],
+  "modelYOffset": 1
+}

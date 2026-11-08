@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "names": [
+        "destination"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DISPLAY",
+      "displayType": "DESTINATION",
+      "displayDefaultText": "回库",
+      "displayColorCjk": "B8EFE6",
+      "displayColor": "B8EFE6",
+      "displayMaxLineHeight": 1.5,
+      "displayCjkSizeRatio": 2,
+      "displayXPadding": 0.1,
+      "displayYPadding": 0.1,
+      "displayOptions": [
+        "SINGLE_LINE",
+        "SCROLL_NORMAL",
+        "CYCLE_LANGUAGES"
+      ]
+    },
+    {
+      "names": [
+        "route"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "type": "DISPLAY",
+      "displayType": "ROUTE_NUMBER",
+      "displayDefaultText": "",
+      "displayColorCjk": "B8EFE6",
+      "displayColor": "B8EFE6",
+      "displayMaxLineHeight": 1.5,
+      "displayCjkSizeRatio": 2,
+      "displayXPadding": 0.1,
+      "displayYPadding": 0.1,
+      "displayOptions": [
+        "SINGLE_LINE"
+      ]
+    }
+  ],
+  "modelYOffset": 0
+}

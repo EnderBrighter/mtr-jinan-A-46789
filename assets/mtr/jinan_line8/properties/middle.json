@@ -1,0 +1,53 @@
+{
+  "parts": [
+    {
+      "names": [
+        "shell"
+      ],
+      "positionDefinitions": [
+        "origin"
+      ],
+      "renderStage": "EXTERIOR"
+    },
+    {
+      "names": [
+        "interior",
+        "seats",
+        "lcd_mounts"
+      ],
+      "positionDefinitions": [
+        "origin"
+      ],
+      "renderStage": "INTERIOR"
+    },
+    {
+      "names": [
+        "window"
+      ],
+      "positionDefinitions": [
+        "origin"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT"
+    },
+    {
+      "names": [
+        "lights"
+      ],
+      "positionDefinitions": [
+        "origin"
+      ],
+      "renderStage": "LIGHT"
+    }
+  ],
+  "modelYOffset": 0,
+  "gangwayWidth": 1.64,
+  "gangwayHeight": 2.15,
+  "gangwayYOffset": 1,
+  "gangwayZOffset": 0.26,
+  "gangwayInnerSideResource": "mtr:jinan_line8/textures/gangway.png",
+  "gangwayInnerTopResource": "mtr:jinan_line8/textures/gangway.png",
+  "gangwayInnerBottomResource": "mtr:jinan_line8/textures/gangway.png",
+  "gangwayOuterSideResource": "mtr:jinan_line8/textures/gangway.png",
+  "gangwayOuterTopResource": "mtr:jinan_line8/textures/gangway.png",
+  "gangwayOuterBottomResource": "mtr:jinan_line8/textures/gangway.png"
+}

@@ -1,0 +1,445 @@
+{
+  "parts": [
+    {
+      "names": [
+        "door_l_0_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_0_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_0_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_0_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_1_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_1_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_1_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_1_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_2_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_2_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_2_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_2_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_3_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_3_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_3_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_3_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_4_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_4_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_4_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_l_4_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_0_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_0_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_0_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_0_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_1_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_1_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_1_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_1_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_2_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_2_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_2_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_2_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_3_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_3_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_3_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_3_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_4_a"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_4_a_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": 12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_4_b"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    },
+    {
+      "names": [
+        "door_r_4_b_glass"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR_TRANSLUCENT",
+      "doorZMultiplier": -12,
+      "doorAnimationType": "STANDARD"
+    }
+  ],
+  "modelYOffset": 0
+}

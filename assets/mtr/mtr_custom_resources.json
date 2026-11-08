@@ -1,0 +1,1495 @@
+{
+  "vehicles": [
+    {
+      "id": "jinan_line4_tc",
+      "name": "济南地铁4号线 | 头车 Tc",
+      "color": "A5D431",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line4",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/cab.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/cab.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/doors_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/interaction.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/headsign.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/bogie.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/bogie.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line4_lcd"
+    },
+    {
+      "id": "jinan_line4_m",
+      "name": "济南地铁4号线 | 中间动车 M",
+      "color": "A5D431",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line4",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/middle.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/bogie.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/bogie.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line4_lcd"
+    },
+    {
+      "id": "jinan_line4_mp",
+      "name": "济南地铁4号线 | 受电弓动车 Mp",
+      "color": "A5D431",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line4",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/motor.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/motor.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/bogie.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/bogie.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line4_lcd"
+    },
+    {
+      "id": "jinan_line4_tc_reverse",
+      "name": "济南地铁4号线 | 尾车 Tc（反向）",
+      "color": "A5D431",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "tags": [
+        "family:jinan_line4",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/cab.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/cab_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/interaction_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line4/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/headsign_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/bogie.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line4/models/bogie.obj",
+          "textureResource": "mtr:jinan_line4/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line4/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line4/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line4_lcd"
+    },
+    {
+      "id": "jinan_line6_tc",
+      "name": "济南地铁6号线 | 头车 Tc",
+      "color": "55B7D5",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line6",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/cab.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/cab.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/doors_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/interaction.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/headsign.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/bogie.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/bogie.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line6_lcd"
+    },
+    {
+      "id": "jinan_line6_m",
+      "name": "济南地铁6号线 | 中间动车 M",
+      "color": "55B7D5",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line6",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/middle.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/bogie.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/bogie.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line6_lcd"
+    },
+    {
+      "id": "jinan_line6_mp",
+      "name": "济南地铁6号线 | 受电弓动车 Mp",
+      "color": "55B7D5",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line6",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/motor.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/motor.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/bogie.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/bogie.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line6_lcd"
+    },
+    {
+      "id": "jinan_line6_tc_reverse",
+      "name": "济南地铁6号线 | 尾车 Tc（反向）",
+      "color": "55B7D5",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "tags": [
+        "family:jinan_line6",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/cab.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/cab_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/interaction_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line6/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/headsign_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/bogie.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line6/models/bogie.obj",
+          "textureResource": "mtr:jinan_line6/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line6/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line6/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line6_lcd"
+    },
+    {
+      "id": "jinan_line7_tc",
+      "name": "济南地铁7号线 | 头车 Tc",
+      "color": "C65054",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line7",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/cab.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/cab.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/doors_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/interaction.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/headsign.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/bogie.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/bogie.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line7_lcd"
+    },
+    {
+      "id": "jinan_line7_m",
+      "name": "济南地铁7号线 | 中间动车 M",
+      "color": "C65054",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line7",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/middle.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/bogie.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/bogie.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line7_lcd"
+    },
+    {
+      "id": "jinan_line7_mp",
+      "name": "济南地铁7号线 | 受电弓动车 Mp",
+      "color": "C65054",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line7",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/motor.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/motor.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/bogie.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/bogie.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line7_lcd"
+    },
+    {
+      "id": "jinan_line7_tc_reverse",
+      "name": "济南地铁7号线 | 尾车 Tc（反向）",
+      "color": "C65054",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "tags": [
+        "family:jinan_line7",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/cab.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/cab_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/interaction_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line7/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/headsign_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/bogie.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line7/models/bogie.obj",
+          "textureResource": "mtr:jinan_line7/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line7/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line7/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line7_lcd"
+    },
+    {
+      "id": "jinan_line8_tc",
+      "name": "济南地铁8号线 | 头车 Tc",
+      "color": "8965AE",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line8",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/cab.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/cab.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/doors_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/interaction.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/headsign.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/bogie.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/bogie.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line8_lcd"
+    },
+    {
+      "id": "jinan_line8_m",
+      "name": "济南地铁8号线 | 中间动车 M",
+      "color": "8965AE",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line8",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/middle.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/bogie.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/bogie.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line8_lcd"
+    },
+    {
+      "id": "jinan_line8_mp",
+      "name": "济南地铁8号线 | 受电弓动车 Mp",
+      "color": "8965AE",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line8",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/motor.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/motor.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/bogie.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/bogie.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line8_lcd"
+    },
+    {
+      "id": "jinan_line8_tc_reverse",
+      "name": "济南地铁8号线 | 尾车 Tc（反向）",
+      "color": "8965AE",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "tags": [
+        "family:jinan_line8",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/cab.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/cab_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/interaction_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line8/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/headsign_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/bogie.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line8/models/bogie.obj",
+          "textureResource": "mtr:jinan_line8/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line8/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line8/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line8_lcd"
+    },
+    {
+      "id": "jinan_line9_tc",
+      "name": "济南地铁9号线 | 头车 Tc",
+      "color": "B69452",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": false,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line9",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/cab.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/cab.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/doors_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/interaction.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/headsign.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/bogie.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/bogie.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line9_lcd"
+    },
+    {
+      "id": "jinan_line9_m",
+      "name": "济南地铁9号线 | 中间动车 M",
+      "color": "B69452",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line9",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/middle.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/bogie.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/bogie.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line9_lcd"
+    },
+    {
+      "id": "jinan_line9_mp",
+      "name": "济南地铁9号线 | 受电弓动车 Mp",
+      "color": "B69452",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": true,
+      "tags": [
+        "family:jinan_line9",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/motor.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/motor.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/interaction_middle.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/bogie.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/bogie.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line9_lcd"
+    },
+    {
+      "id": "jinan_line9_tc_reverse",
+      "name": "济南地铁9号线 | 尾车 Tc（反向）",
+      "color": "B69452",
+      "transportMode": "TRAIN",
+      "width": 3,
+      "length": 25,
+      "couplingPadding1": 0,
+      "couplingPadding2": 0,
+      "bogie1Position": -8.5,
+      "bogie2Position": 8.5,
+      "hasGangway1": true,
+      "hasGangway2": false,
+      "tags": [
+        "family:jinan_line9",
+        "iso_3166:CN",
+        "doors:5",
+        "length:25m"
+      ],
+      "models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/cab.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/cab_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/doors.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/doors.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/interaction.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/interaction_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        },
+        {
+          "modelResource": "mtr:jinan_line9/models/headsign.bbmodel",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/headsign_reverse.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie1Models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/bogie.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "bogie2Models": [
+        {
+          "modelResource": "mtr:jinan_line9/models/bogie.obj",
+          "textureResource": "mtr:jinan_line9/textures/atlas.png",
+          "modelPropertiesResource": "mtr:jinan_line9/properties/bogie.json",
+          "positionDefinitionsResource": "mtr:jinan_line9/properties/origin.json",
+          "flipTextureV": false
+        }
+      ],
+      "legacySpeedSoundBaseResource": "sp1900",
+      "legacySpeedSoundCount": 120,
+      "legacyDoorSoundBaseResource": "sp1900",
+      "legacyDoorCloseSoundTime": 0.5,
+      "scriptId": "jinan_line9_lcd"
+    }
+  ],
+  "vehicleScripts": [
+    {
+      "id": "jinan_line4_lcd",
+      "scriptLocations": [
+        "mtr:jinan_line4/scripts/lcd.js"
+      ],
+      "dataFetchMode": "ALL",
+      "input": {
+        "singleRowMax": 18,
+        "maxPerRow": 18,
+        "refreshMillis": 200,
+        "arrivalPageSeconds": 6,
+        "animationSeconds": 1.4,
+        "doorCycleSeconds": 1.0,
+        "arrivalTolerance": 6,
+        "stoppedSpeed": 0.6,
+        "screenOffset": 0.02,
+        "debug": false
+      }
+    },
+    {
+      "id": "jinan_line6_lcd",
+      "scriptLocations": [
+        "mtr:jinan_line6/scripts/lcd.js"
+      ],
+      "dataFetchMode": "ALL",
+      "input": {
+        "singleRowMax": 18,
+        "maxPerRow": 18,
+        "refreshMillis": 200,
+        "arrivalPageSeconds": 6,
+        "animationSeconds": 1.4,
+        "doorCycleSeconds": 1.0,
+        "arrivalTolerance": 6,
+        "stoppedSpeed": 0.6,
+        "screenOffset": 0.02,
+        "debug": false
+      }
+    },
+    {
+      "id": "jinan_line7_lcd",
+      "scriptLocations": [
+        "mtr:jinan_line7/scripts/lcd.js"
+      ],
+      "dataFetchMode": "ALL",
+      "input": {
+        "singleRowMax": 18,
+        "maxPerRow": 18,
+        "refreshMillis": 200,
+        "arrivalPageSeconds": 6,
+        "animationSeconds": 1.4,
+        "doorCycleSeconds": 1.0,
+        "arrivalTolerance": 6,
+        "stoppedSpeed": 0.6,
+        "screenOffset": 0.02,
+        "debug": false
+      }
+    },
+    {
+      "id": "jinan_line8_lcd",
+      "scriptLocations": [
+        "mtr:jinan_line8/scripts/lcd.js"
+      ],
+      "dataFetchMode": "ALL",
+      "input": {
+        "singleRowMax": 18,
+        "maxPerRow": 18,
+        "refreshMillis": 200,
+        "arrivalPageSeconds": 6,
+        "animationSeconds": 1.4,
+        "doorCycleSeconds": 1.0,
+        "arrivalTolerance": 6,
+        "stoppedSpeed": 0.6,
+        "screenOffset": 0.02,
+        "debug": false
+      }
+    },
+    {
+      "id": "jinan_line9_lcd",
+      "scriptLocations": [
+        "mtr:jinan_line9/scripts/lcd.js"
+      ],
+      "dataFetchMode": "ALL",
+      "input": {
+        "singleRowMax": 18,
+        "maxPerRow": 18,
+        "refreshMillis": 200,
+        "arrivalPageSeconds": 6,
+        "animationSeconds": 1.4,
+        "doorCycleSeconds": 1.0,
+        "arrivalTolerance": 6,
+        "stoppedSpeed": 0.6,
+        "screenOffset": 0.02,
+        "debug": false
+      }
+    }
+  ],
+  "signs": [],
+  "rails": [],
+  "objects": [],
+  "lifts": []
+}
