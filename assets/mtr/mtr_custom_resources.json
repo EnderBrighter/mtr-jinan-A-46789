@@ -1408,6 +1408,7 @@
         "arrivalTolerance": 6,
         "stoppedSpeed": 0.6,
         "screenOffset": 0.02,
+        "defaultColor": 10867761,
         "debug": false
       }
     },
@@ -1427,6 +1428,7 @@
         "arrivalTolerance": 6,
         "stoppedSpeed": 0.6,
         "screenOffset": 0.02,
+        "defaultColor": 5617621,
         "debug": false
       }
     },
@@ -1446,6 +1448,7 @@
         "arrivalTolerance": 6,
         "stoppedSpeed": 0.6,
         "screenOffset": 0.02,
+        "defaultColor": 12996692,
         "debug": false
       }
     },
@@ -1465,6 +1468,7 @@
         "arrivalTolerance": 6,
         "stoppedSpeed": 0.6,
         "screenOffset": 0.02,
+        "defaultColor": 9004462,
         "debug": false
       }
     },
@@ -1484,6 +1488,7 @@
         "arrivalTolerance": 6,
         "stoppedSpeed": 0.6,
         "screenOffset": 0.02,
+        "defaultColor": 11965522,
         "debug": false
       }
     }

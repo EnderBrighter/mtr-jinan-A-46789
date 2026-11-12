@@ -1,5 +1,5 @@
 /* JCM 2.3.0 / MTR 4.0.5. Coordinates in metres above car floor. */
-var LCD={width:2048,height:336,singleRowMax:18,maxPerRow:18,refreshMillis:200,arrivalPageSeconds:6,animationSeconds:1.4,doorCycleSeconds:1.0,arrivalTolerance:6,stoppedSpeed:0.6,screenOffset:0.020,debug:false};
+var LCD={width:2048,height:336,singleRowMax:18,maxPerRow:18,refreshMillis:200,arrivalPageSeconds:6,animationSeconds:1.4,doorCycleSeconds:1.0,arrivalTolerance:6,stoppedSpeed:0.6,screenOffset:0.020,defaultColor:0xa5d431,debug:false};
 if(typeof SCRIPT_INPUT!=='undefined')Object.keys(LCD).forEach(function(k){if(SCRIPT_INPUT[k]!==undefined)LCD[k]=SCRIPT_INPUT[k];});
 LCD.singleRowMax=Math.max(2,Math.min(24,Number(LCD.singleRowMax)));
 LCD.maxPerRow=Math.max(2,Math.min(24,Number(LCD.maxPerRow)));
@@ -23,12 +23,12 @@ function badge(g,s,x,y,c,w){rect(g,x,y,w,22,c);text(g,names(s)[0],x+5,y+17,15,0x
 function polygon(g,points,c){col(g,c);var p=new java.awt.geom.Path2D.Double();p.moveTo(points[0][0],points[0][1]);for(var i=1;i<points.length;i++)p.lineTo(points[i][0],points[i][1]);p.closePath();g.fill(p);}
 function rounded(g,x,y,w,h,c,r){col(g,c);g.fill(new java.awt.geom.RoundRectangle2D.Double(x,y,w,h,r,r));}
 function snapshot(v){
- var raw=v.getThisRouteStops(),stops=list(raw),progress=v.getRailProgress(),next=Number(v.getNextStopIndex(raw,0.5)),nearest=-1,delta=Infinity;
+ var onRoute=v.isOnRoute(),raw=v.getThisRouteStops(),stops=list(raw),progress=v.getRailProgress(),next=Number(v.getNextStopIndex(raw,0.5)),nearest=-1,delta=Infinity;
  for(var i=0;i<stops.length;i++){var dist=Number(stops[i].distance);if(dist>=0&&Math.abs(dist-progress)<delta){delta=Math.abs(dist-progress);nearest=i;}}
  var arrived=Math.abs(v.getSpeedMs())<LCD.stoppedSpeed&&nearest>=0&&delta<=LCD.arrivalTolerance&&(v.getDoorValue()>0||v.getTotalDwellTime()>=0);
- var index=arrived?nearest:Math.max(0,Math.min(next,Math.max(0,stops.length-1))),current=stops[index],route=current?current.route:null;
- var data=stops.map(function(s,i){return{name:s.station?String(s.station.getName()):String(s.name||'站名加载中|Loading station'),color:s.route?Number(s.route.getColor()):0x67b943,transfers:list(s.routeInterchanges).map(function(r){return{name:String(r.name),color:Number(r.color)};})};});
- return{stops:data,index:index,arrived:arrived,onRoute:v.isOnRoute(),ready:v.isStopsDataFetched(),line:route?String(route.getName()):'',color:route?Number(route.getColor()):0x67b943,origin:data.length?data[0].name:'',destination:current?String(current.destinationName||''):'',doorValue:Number(v.getDoorValue()),anim:Date.now()/1000,phase:Math.floor(Date.now()/1000/LCD.arrivalPageSeconds)%2,blink:Math.floor(Date.now()/1000)%2,reversed:v.isReversed()};
+ var index=arrived?nearest:Math.max(0,Math.min(next,Math.max(0,stops.length-1))),current=stops[index],route=onRoute&&current?current.route:null;
+ var data=stops.map(function(s,i){return{name:s.station?String(s.station.getName()):String(s.name||'站名加载中|Loading station'),color:s.route?Number(s.route.getColor()):Number(LCD.defaultColor),transfers:list(s.routeInterchanges).map(function(r){return{name:String(r.name),color:Number(r.color)};})};});
+ return{stops:data,index:index,arrived:arrived,onRoute:onRoute,ready:v.isStopsDataFetched(),line:route?String(route.getName()):'',color:route?Number(route.getColor()):Number(LCD.defaultColor),origin:data.length?data[0].name:'',destination:current?String(current.destinationName||''):'',doorValue:Number(v.getDoorValue()),anim:Date.now()/1000,phase:Math.floor(Date.now()/1000/LCD.arrivalPageSeconds)%2,blink:Math.floor(Date.now()/1000)%2,reversed:v.isReversed()};
 }
 function doorKey(v,car,side,z){
  // Platform-query X is opposite the LCD render X in this vehicle coordinate convention.
@@ -104,13 +104,13 @@ function paint(g,d,key,carCount){
 }
 function create(ctx,state,v){state.textures={};state.carLabels={};state.labelColor=null;state.calls=[];state.lastUpdate=0;}
 function screenCall(tex,side,z){
- function p(u,v){return new Vector3f(side*(1.245-.48*v-LCD.screenOffset),2.115+v,z+u);}
+ function p(u,v){return new Vector3f(side*(1.245-.48*v-LCD.screenOffset),2.325+v,z+u);}
  var left=side>0?-.87:.87,right=-left;
  return QuadDrawCall.create('Jinan LCD').quad(p(left,.1425),p(left,-.1425),p(right,-.1425),p(right,.1425)).texture(tex.identifier).renderType('LIGHT');
 }
 function carLabelCall(tex,side,z){
  var left=side>0?-.87:.87,right=-left,u=left+(right-left)*1840/2048,bottom=.1425-.285*70/336;
- function p(u,v){return new Vector3f(side*(1.245-.48*v-LCD.screenOffset-.0005),2.115+v,z+u);}
+ function p(u,v){return new Vector3f(side*(1.245-.48*v-LCD.screenOffset-.0005),2.325+v,z+u);}
  return QuadDrawCall.create('LCD car position').quad(p(u,.1425),p(u,bottom),p(right,bottom),p(right,.1425)).texture(tex.identifier).renderType('LIGHT');
 }
 function paintCarLabel(g,car,color){

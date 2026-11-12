@@ -37,6 +37,17 @@
         "flipped"
       ],
       "renderStage": "LIGHT"
+    },
+    {
+      "names": [
+        "interior_soft_white",
+        "seats_soft_white",
+        "lcd_mounts_soft_white"
+      ],
+      "positionDefinitions": [
+        "flipped"
+      ],
+      "renderStage": "INTERIOR"
     }
   ],
   "modelYOffset": 0,
