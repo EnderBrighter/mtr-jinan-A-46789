@@ -1,0 +1,15 @@
+{
+  "version": 6,
+  "checks": [
+    "native door axes and 101 motion samples in each orientation",
+    "20 clear native cube UV nets, 5 clear cab panes, clear partition panes",
+    "40 narrow inflated seals; continuous swept collision checks Tc/M/Mp",
+    "30 closed LCD housings; 150 unobstructed screen visibility rays",
+    "finite vertices, dimensions and gangway continuity",
+    "46605 polygon areas and 35 delivered OBJ front face rays",
+    "MTR bundled javagl parsing of all four OBJ files",
+    "ZIP bytes equal installed assets"
+  ],
+  "gameVerified": false,
+  "reason": "Local creator port unavailable; user stopped computer use before reload. Water visibility needs in-game review."
+}

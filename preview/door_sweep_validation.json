@@ -1,0 +1,5 @@
+{
+  "collisions": [],
+  "cuboidsPerCar": 320,
+  "method": "Continuous swept cuboid / triangle clipping; tolerance 0.01 mm"
+}

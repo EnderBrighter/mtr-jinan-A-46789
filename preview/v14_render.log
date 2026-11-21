@@ -1,0 +1,373 @@
+Blender 3.0.0 (hash f1cca3055776 built 2021-12-03 00:44:02)
+Read prefs: C:\Users\Administrator01\AppData\Roaming\Blender Foundation\Blender\3.0\config\userpref.blend
+信息: 文件总数 2 | 更改 2 项 | 失败 0 项
+信息: 已保存 "jinan_line4_v14.blend"
+帧号:1 | 内存:58.82M (峰值 59.47M) | 时间:00:01.14 | Syncing Studio floor
+帧号:1 | 内存:59.21M (峰值 59.57M) | 时间:00:01.88 | Syncing 面光
+帧号:1 | 内存:59.21M (峰值 59.57M) | 时间:00:01.88 | Syncing 面光.001
+帧号:1 | 内存:59.21M (峰值 59.57M) | 时间:00:01.88 | Syncing 面光.002
+帧号:1 | 内存:59.21M (峰值 59.57M) | 时间:00:01.88 | Syncing 摄像机
+帧号:1 | 内存:59.21M (峰值 59.57M) | 时间:00:01.88 | Syncing interior
+帧号:1 | 内存:68.53M (峰值 68.60M) | 时间:00:04.21 | Syncing shell
+帧号:1 | 内存:70.74M (峰值 70.80M) | 时间:00:04.21 | Syncing lights
+帧号:1 | 内存:70.76M (峰值 70.80M) | 时间:00:04.21 | Syncing window
+帧号:1 | 内存:70.80M (峰值 70.80M) | 时间:00:04.21 | Syncing seats
+帧号:1 | 内存:72.30M (峰值 72.33M) | 时间:00:04.21 | Syncing door_l_0_a
+帧号:1 | 内存:72.32M (峰值 72.33M) | 时间:00:04.21 | Syncing door_l_0_a_glass
+帧号:1 | 内存:72.43M (峰值 72.43M) | 时间:00:04.21 | Syncing door_l_0_b
+帧号:1 | 内存:72.45M (峰值 72.45M) | 时间:00:04.21 | Syncing door_l_0_b_glass
+帧号:1 | 内存:72.46M (峰值 72.46M) | 时间:00:04.21 | Syncing lcd_mounts
+帧号:1 | 内存:72.53M (峰值 72.53M) | 时间:00:04.21 | Syncing door_l_1_a
+帧号:1 | 内存:72.56M (峰值 72.56M) | 时间:00:04.21 | Syncing door_l_1_a_glass
+帧号:1 | 内存:72.56M (峰值 72.56M) | 时间:00:04.21 | Syncing door_l_1_b
+帧号:1 | 内存:72.59M (峰值 72.59M) | 时间:00:04.21 | Syncing door_l_1_b_glass
+帧号:1 | 内存:72.60M (峰值 72.60M) | 时间:00:04.21 | Syncing door_l_2_a
+帧号:1 | 内存:72.63M (峰值 72.63M) | 时间:00:04.21 | Syncing door_l_2_a_glass
+帧号:1 | 内存:72.64M (峰值 72.64M) | 时间:00:04.21 | Syncing door_l_2_b
+帧号:1 | 内存:72.66M (峰值 72.66M) | 时间:00:04.21 | Syncing door_l_2_b_glass
+帧号:1 | 内存:72.67M (峰值 72.67M) | 时间:00:04.21 | Syncing door_l_3_a
+帧号:1 | 内存:72.70M (峰值 72.70M) | 时间:00:04.21 | Syncing door_l_3_a_glass
+帧号:1 | 内存:72.71M (峰值 72.71M) | 时间:00:04.21 | Syncing door_l_3_b
+帧号:1 | 内存:72.74M (峰值 72.74M) | 时间:00:04.21 | Syncing door_l_3_b_glass
+帧号:1 | 内存:72.75M (峰值 72.75M) | 时间:00:04.21 | Syncing door_l_4_a
+帧号:1 | 内存:72.77M (峰值 72.77M) | 时间:00:04.21 | Syncing door_l_4_a_glass
+帧号:1 | 内存:72.78M (峰值 72.78M) | 时间:00:04.21 | Syncing door_l_4_b
+帧号:1 | 内存:72.81M (峰值 72.81M) | 时间:00:04.21 | Syncing door_l_4_b_glass
+帧号:1 | 内存:72.82M (峰值 72.82M) | 时间:00:04.21 | Syncing door_r_0_a
+帧号:1 | 内存:72.85M (峰值 72.85M) | 时间:00:04.21 | Syncing door_r_0_a_glass
+帧号:1 | 内存:72.85M (峰值 72.85M) | 时间:00:04.21 | Syncing door_r_0_b
+帧号:1 | 内存:72.88M (峰值 72.88M) | 时间:00:04.21 | Syncing door_r_0_b_glass
+帧号:1 | 内存:72.89M (峰值 72.89M) | 时间:00:04.21 | Syncing door_r_1_a
+帧号:1 | 内存:72.92M (峰值 72.92M) | 时间:00:04.21 | Syncing door_r_1_a_glass
+帧号:1 | 内存:72.93M (峰值 72.93M) | 时间:00:04.21 | Syncing door_r_1_b
+帧号:1 | 内存:72.95M (峰值 72.95M) | 时间:00:04.21 | Syncing door_r_1_b_glass
+帧号:1 | 内存:72.96M (峰值 72.96M) | 时间:00:04.21 | Syncing door_r_2_a
+帧号:1 | 内存:72.99M (峰值 72.99M) | 时间:00:04.21 | Syncing door_r_2_a_glass
+帧号:1 | 内存:73.00M (峰值 73.00M) | 时间:00:04.21 | Syncing door_r_2_b
+帧号:1 | 内存:73.03M (峰值 73.03M) | 时间:00:04.21 | Syncing door_r_2_b_glass
+帧号:1 | 内存:73.04M (峰值 73.04M) | 时间:00:04.21 | Syncing door_r_3_a
+帧号:1 | 内存:73.06M (峰值 73.06M) | 时间:00:04.21 | Syncing door_r_3_a_glass
+帧号:1 | 内存:73.07M (峰值 73.07M) | 时间:00:04.21 | Syncing door_r_3_b
+帧号:1 | 内存:73.10M (峰值 73.10M) | 时间:00:04.21 | Syncing door_r_3_b_glass
+帧号:1 | 内存:73.11M (峰值 73.11M) | 时间:00:04.21 | Syncing door_r_4_a
+帧号:1 | 内存:73.14M (峰值 73.14M) | 时间:00:04.21 | Syncing door_r_4_a_glass
+帧号:1 | 内存:73.15M (峰值 73.15M) | 时间:00:04.21 | Syncing door_r_4_b
+帧号:1 | 内存:73.17M (峰值 73.17M) | 时间:00:04.21 | Syncing door_r_4_b_glass
+帧号:1 | 内存:73.18M (峰值 73.18M) | 时间:00:04.21 | Syncing cab_glazing
+帧号:1 | 内存:73.19M (峰值 73.19M) | 时间:00:04.21 | Syncing depot_lights
+帧号:1 | 内存:73.24M (峰值 73.24M) | 时间:00:04.21 | Syncing cab_bogie
+帧号:1 | 内存:73.86M (峰值 73.88M) | 时间:00:04.21 | Syncing cab_bogie.001
+帧号:1 | 内存:71.37M (峰值 73.88M) | 时间:00:04.21 | Rendering 1 / 48 samples
+帧号:1 | 内存:66.81M (峰值 73.88M) | 时间:00:05.07 | Rendering 26 / 48 samples
+帧号:1 | 内存:66.81M (峰值 73.88M) | 时间:00:05.14 | Rendering 48 / 48 samples
+Saved: 'E:\MC 1.20.1 联机用\.minecraft\versions\1.20.4-Fabric\resourcepacks\济南地铁4号线-6.1sol\preview\v14_door_exterior.png'
+ Time: 00:05.64 (Saving: 00:00.48)
+
+帧号:1 | 内存:65.47M (峰值 65.65M) | 时间:00:00.00 | Syncing Studio floor
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光.001
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光.002
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 摄像机
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing interior
+帧号:1 | 内存:68.54M (峰值 68.61M) | 时间:00:00.01 | Syncing shell
+帧号:1 | 内存:70.75M (峰值 70.81M) | 时间:00:00.01 | Syncing lights
+帧号:1 | 内存:70.77M (峰值 70.81M) | 时间:00:00.01 | Syncing window
+帧号:1 | 内存:70.81M (峰值 70.81M) | 时间:00:00.01 | Syncing seats
+帧号:1 | 内存:72.31M (峰值 72.34M) | 时间:00:00.01 | Syncing door_l_0_a
+帧号:1 | 内存:72.33M (峰值 72.34M) | 时间:00:00.01 | Syncing door_l_0_a_glass
+帧号:1 | 内存:72.44M (峰值 72.44M) | 时间:00:00.01 | Syncing door_l_0_b
+帧号:1 | 内存:72.46M (峰值 72.46M) | 时间:00:00.01 | Syncing door_l_0_b_glass
+帧号:1 | 内存:72.47M (峰值 72.47M) | 时间:00:00.01 | Syncing lcd_mounts
+帧号:1 | 内存:72.54M (峰值 72.54M) | 时间:00:00.01 | Syncing door_l_1_a
+帧号:1 | 内存:72.56M (峰值 72.56M) | 时间:00:00.01 | Syncing door_l_1_a_glass
+帧号:1 | 内存:72.57M (峰值 72.57M) | 时间:00:00.01 | Syncing door_l_1_b
+帧号:1 | 内存:72.60M (峰值 72.60M) | 时间:00:00.01 | Syncing door_l_1_b_glass
+帧号:1 | 内存:72.61M (峰值 72.61M) | 时间:00:00.01 | Syncing door_l_2_a
+帧号:1 | 内存:72.64M (峰值 72.64M) | 时间:00:00.01 | Syncing door_l_2_a_glass
+帧号:1 | 内存:72.65M (峰值 72.65M) | 时间:00:00.01 | Syncing door_l_2_b
+帧号:1 | 内存:72.67M (峰值 72.67M) | 时间:00:00.01 | Syncing door_l_2_b_glass
+帧号:1 | 内存:72.68M (峰值 72.68M) | 时间:00:00.01 | Syncing door_l_3_a
+帧号:1 | 内存:72.71M (峰值 72.71M) | 时间:00:00.01 | Syncing door_l_3_a_glass
+帧号:1 | 内存:72.72M (峰值 72.72M) | 时间:00:00.01 | Syncing door_l_3_b
+帧号:1 | 内存:72.75M (峰值 72.75M) | 时间:00:00.01 | Syncing door_l_3_b_glass
+帧号:1 | 内存:72.75M (峰值 72.75M) | 时间:00:00.01 | Syncing door_l_4_a
+帧号:1 | 内存:72.78M (峰值 72.78M) | 时间:00:00.01 | Syncing door_l_4_a_glass
+帧号:1 | 内存:72.79M (峰值 72.79M) | 时间:00:00.01 | Syncing door_l_4_b
+帧号:1 | 内存:72.82M (峰值 72.82M) | 时间:00:00.01 | Syncing door_l_4_b_glass
+帧号:1 | 内存:72.83M (峰值 72.83M) | 时间:00:00.01 | Syncing door_r_0_a
+帧号:1 | 内存:72.85M (峰值 72.85M) | 时间:00:00.01 | Syncing door_r_0_a_glass
+帧号:1 | 内存:72.86M (峰值 72.86M) | 时间:00:00.01 | Syncing door_r_0_b
+帧号:1 | 内存:72.89M (峰值 72.89M) | 时间:00:00.01 | Syncing door_r_0_b_glass
+帧号:1 | 内存:72.90M (峰值 72.90M) | 时间:00:00.01 | Syncing door_r_1_a
+帧号:1 | 内存:72.93M (峰值 72.93M) | 时间:00:00.01 | Syncing door_r_1_a_glass
+帧号:1 | 内存:72.94M (峰值 72.94M) | 时间:00:00.01 | Syncing door_r_1_b
+帧号:1 | 内存:72.96M (峰值 72.96M) | 时间:00:00.01 | Syncing door_r_1_b_glass
+帧号:1 | 内存:72.97M (峰值 72.97M) | 时间:00:00.01 | Syncing door_r_2_a
+帧号:1 | 内存:73.00M (峰值 73.00M) | 时间:00:00.01 | Syncing door_r_2_a_glass
+帧号:1 | 内存:73.01M (峰值 73.01M) | 时间:00:00.01 | Syncing door_r_2_b
+帧号:1 | 内存:73.04M (峰值 73.04M) | 时间:00:00.01 | Syncing door_r_2_b_glass
+帧号:1 | 内存:73.05M (峰值 73.05M) | 时间:00:00.01 | Syncing door_r_3_a
+帧号:1 | 内存:73.07M (峰值 73.07M) | 时间:00:00.01 | Syncing door_r_3_a_glass
+帧号:1 | 内存:73.08M (峰值 73.08M) | 时间:00:00.01 | Syncing door_r_3_b
+帧号:1 | 内存:73.11M (峰值 73.11M) | 时间:00:00.01 | Syncing door_r_3_b_glass
+帧号:1 | 内存:73.12M (峰值 73.12M) | 时间:00:00.01 | Syncing door_r_4_a
+帧号:1 | 内存:73.14M (峰值 73.14M) | 时间:00:00.01 | Syncing door_r_4_a_glass
+帧号:1 | 内存:73.15M (峰值 73.15M) | 时间:00:00.01 | Syncing door_r_4_b
+帧号:1 | 内存:73.18M (峰值 73.18M) | 时间:00:00.01 | Syncing door_r_4_b_glass
+帧号:1 | 内存:73.19M (峰值 73.19M) | 时间:00:00.01 | Syncing cab_glazing
+帧号:1 | 内存:73.20M (峰值 73.20M) | 时间:00:00.01 | Syncing depot_lights
+帧号:1 | 内存:73.25M (峰值 73.25M) | 时间:00:00.01 | Syncing cab_bogie
+帧号:1 | 内存:73.87M (峰值 73.89M) | 时间:00:00.01 | Syncing cab_bogie.001
+帧号:1 | 内存:71.38M (峰值 73.89M) | 时间:00:00.01 | Rendering 1 / 48 samples
+帧号:1 | 内存:66.81M (峰值 73.89M) | 时间:00:00.10 | Rendering 26 / 48 samples
+帧号:1 | 内存:66.81M (峰值 73.89M) | 时间:00:00.16 | Rendering 48 / 48 samples
+Saved: 'E:\MC 1.20.1 联机用\.minecraft\versions\1.20.4-Fabric\resourcepacks\济南地铁4号线-6.1sol\preview\v14_lcd_interior.png'
+ Time: 00:00.31 (Saving: 00:00.13)
+
+帧号:1 | 内存:65.47M (峰值 65.65M) | 时间:00:00.01 | Syncing Studio floor
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing 面光
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing 面光.001
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing 面光.002
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing 摄像机
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing interior
+帧号:1 | 内存:68.54M (峰值 68.61M) | 时间:00:00.01 | Syncing shell
+帧号:1 | 内存:70.75M (峰值 70.81M) | 时间:00:00.01 | Syncing lights
+帧号:1 | 内存:70.77M (峰值 70.81M) | 时间:00:00.02 | Syncing window
+帧号:1 | 内存:70.81M (峰值 70.81M) | 时间:00:00.02 | Syncing seats
+帧号:1 | 内存:72.31M (峰值 72.34M) | 时间:00:00.02 | Syncing door_l_0_a
+帧号:1 | 内存:72.33M (峰值 72.34M) | 时间:00:00.02 | Syncing door_l_0_a_glass
+帧号:1 | 内存:72.44M (峰值 72.44M) | 时间:00:00.02 | Syncing door_l_0_b
+帧号:1 | 内存:72.46M (峰值 72.46M) | 时间:00:00.02 | Syncing door_l_0_b_glass
+帧号:1 | 内存:72.47M (峰值 72.47M) | 时间:00:00.02 | Syncing lcd_mounts
+帧号:1 | 内存:72.54M (峰值 72.54M) | 时间:00:00.02 | Syncing door_l_1_a
+帧号:1 | 内存:72.57M (峰值 72.57M) | 时间:00:00.02 | Syncing door_l_1_a_glass
+帧号:1 | 内存:72.58M (峰值 72.58M) | 时间:00:00.02 | Syncing door_l_1_b
+帧号:1 | 内存:72.60M (峰值 72.60M) | 时间:00:00.02 | Syncing door_l_1_b_glass
+帧号:1 | 内存:72.61M (峰值 72.61M) | 时间:00:00.02 | Syncing door_l_2_a
+帧号:1 | 内存:72.64M (峰值 72.64M) | 时间:00:00.02 | Syncing door_l_2_a_glass
+帧号:1 | 内存:72.65M (峰值 72.65M) | 时间:00:00.02 | Syncing door_l_2_b
+帧号:1 | 内存:72.67M (峰值 72.67M) | 时间:00:00.02 | Syncing door_l_2_b_glass
+帧号:1 | 内存:72.68M (峰值 72.68M) | 时间:00:00.02 | Syncing door_l_3_a
+帧号:1 | 内存:72.71M (峰值 72.71M) | 时间:00:00.02 | Syncing door_l_3_a_glass
+帧号:1 | 内存:72.72M (峰值 72.72M) | 时间:00:00.02 | Syncing door_l_3_b
+帧号:1 | 内存:72.75M (峰值 72.75M) | 时间:00:00.02 | Syncing door_l_3_b_glass
+帧号:1 | 内存:72.76M (峰值 72.76M) | 时间:00:00.02 | Syncing door_l_4_a
+帧号:1 | 内存:72.78M (峰值 72.78M) | 时间:00:00.02 | Syncing door_l_4_a_glass
+帧号:1 | 内存:72.79M (峰值 72.79M) | 时间:00:00.02 | Syncing door_l_4_b
+帧号:1 | 内存:72.82M (峰值 72.82M) | 时间:00:00.02 | Syncing door_l_4_b_glass
+帧号:1 | 内存:72.83M (峰值 72.83M) | 时间:00:00.02 | Syncing door_r_0_a
+帧号:1 | 内存:72.86M (峰值 72.86M) | 时间:00:00.02 | Syncing door_r_0_a_glass
+帧号:1 | 内存:72.87M (峰值 72.87M) | 时间:00:00.02 | Syncing door_r_0_b
+帧号:1 | 内存:72.89M (峰值 72.89M) | 时间:00:00.02 | Syncing door_r_0_b_glass
+帧号:1 | 内存:72.90M (峰值 72.90M) | 时间:00:00.02 | Syncing door_r_1_a
+帧号:1 | 内存:72.93M (峰值 72.93M) | 时间:00:00.02 | Syncing door_r_1_a_glass
+帧号:1 | 内存:72.94M (峰值 72.94M) | 时间:00:00.02 | Syncing door_r_1_b
+帧号:1 | 内存:72.97M (峰值 72.97M) | 时间:00:00.02 | Syncing door_r_1_b_glass
+帧号:1 | 内存:72.97M (峰值 72.97M) | 时间:00:00.02 | Syncing door_r_2_a
+帧号:1 | 内存:73.00M (峰值 73.00M) | 时间:00:00.02 | Syncing door_r_2_a_glass
+帧号:1 | 内存:73.01M (峰值 73.01M) | 时间:00:00.02 | Syncing door_r_2_b
+帧号:1 | 内存:73.04M (峰值 73.04M) | 时间:00:00.02 | Syncing door_r_2_b_glass
+帧号:1 | 内存:73.05M (峰值 73.05M) | 时间:00:00.02 | Syncing door_r_3_a
+帧号:1 | 内存:73.07M (峰值 73.07M) | 时间:00:00.02 | Syncing door_r_3_a_glass
+帧号:1 | 内存:73.08M (峰值 73.08M) | 时间:00:00.02 | Syncing door_r_3_b
+帧号:1 | 内存:73.11M (峰值 73.11M) | 时间:00:00.02 | Syncing door_r_3_b_glass
+帧号:1 | 内存:73.12M (峰值 73.12M) | 时间:00:00.02 | Syncing door_r_4_a
+帧号:1 | 内存:73.15M (峰值 73.15M) | 时间:00:00.02 | Syncing door_r_4_a_glass
+帧号:1 | 内存:73.16M (峰值 73.16M) | 时间:00:00.02 | Syncing door_r_4_b
+帧号:1 | 内存:73.18M (峰值 73.18M) | 时间:00:00.02 | Syncing door_r_4_b_glass
+帧号:1 | 内存:73.19M (峰值 73.19M) | 时间:00:00.02 | Syncing cab_glazing
+帧号:1 | 内存:73.20M (峰值 73.20M) | 时间:00:00.02 | Syncing depot_lights
+帧号:1 | 内存:73.25M (峰值 73.25M) | 时间:00:00.02 | Syncing cab_bogie
+帧号:1 | 内存:73.87M (峰值 73.89M) | 时间:00:00.02 | Syncing cab_bogie.001
+帧号:1 | 内存:71.38M (峰值 73.89M) | 时间:00:00.02 | Rendering 1 / 48 samples
+帧号:1 | 内存:66.81M (峰值 73.89M) | 时间:00:00.11 | Rendering 26 / 48 samples
+帧号:1 | 内存:66.81M (峰值 73.89M) | 时间:00:00.17 | Rendering 48 / 48 samples
+Saved: 'E:\MC 1.20.1 联机用\.minecraft\versions\1.20.4-Fabric\resourcepacks\济南地铁4号线-6.1sol\preview\v14_doors_open.png'
+ Time: 00:00.30 (Saving: 00:00.11)
+
+帧号:1 | 内存:65.47M (峰值 65.65M) | 时间:00:00.01 | Syncing Studio floor
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing 面光
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing 面光.001
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing 面光.002
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing 摄像机
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.01 | Syncing interior
+帧号:1 | 内存:68.54M (峰值 68.61M) | 时间:00:00.01 | Syncing shell
+帧号:1 | 内存:70.75M (峰值 70.81M) | 时间:00:00.01 | Syncing lights
+帧号:1 | 内存:70.77M (峰值 70.81M) | 时间:00:00.01 | Syncing window
+帧号:1 | 内存:70.81M (峰值 70.81M) | 时间:00:00.01 | Syncing seats
+帧号:1 | 内存:72.31M (峰值 72.34M) | 时间:00:00.02 | Syncing door_l_0_a
+帧号:1 | 内存:72.33M (峰值 72.34M) | 时间:00:00.02 | Syncing door_l_0_a_glass
+帧号:1 | 内存:72.44M (峰值 72.44M) | 时间:00:00.02 | Syncing door_l_0_b
+帧号:1 | 内存:72.46M (峰值 72.46M) | 时间:00:00.02 | Syncing door_l_0_b_glass
+帧号:1 | 内存:72.47M (峰值 72.47M) | 时间:00:00.02 | Syncing lcd_mounts
+帧号:1 | 内存:72.54M (峰值 72.54M) | 时间:00:00.02 | Syncing door_l_1_a
+帧号:1 | 内存:72.57M (峰值 72.57M) | 时间:00:00.02 | Syncing door_l_1_a_glass
+帧号:1 | 内存:72.58M (峰值 72.58M) | 时间:00:00.02 | Syncing door_l_1_b
+帧号:1 | 内存:72.60M (峰值 72.60M) | 时间:00:00.02 | Syncing door_l_1_b_glass
+帧号:1 | 内存:72.61M (峰值 72.61M) | 时间:00:00.02 | Syncing door_l_2_a
+帧号:1 | 内存:72.64M (峰值 72.64M) | 时间:00:00.02 | Syncing door_l_2_a_glass
+帧号:1 | 内存:72.65M (峰值 72.65M) | 时间:00:00.02 | Syncing door_l_2_b
+帧号:1 | 内存:72.67M (峰值 72.67M) | 时间:00:00.02 | Syncing door_l_2_b_glass
+帧号:1 | 内存:72.68M (峰值 72.68M) | 时间:00:00.02 | Syncing door_l_3_a
+帧号:1 | 内存:72.71M (峰值 72.71M) | 时间:00:00.02 | Syncing door_l_3_a_glass
+帧号:1 | 内存:72.72M (峰值 72.72M) | 时间:00:00.02 | Syncing door_l_3_b
+帧号:1 | 内存:72.75M (峰值 72.75M) | 时间:00:00.02 | Syncing door_l_3_b_glass
+帧号:1 | 内存:72.76M (峰值 72.76M) | 时间:00:00.02 | Syncing door_l_4_a
+帧号:1 | 内存:72.78M (峰值 72.78M) | 时间:00:00.02 | Syncing door_l_4_a_glass
+帧号:1 | 内存:72.79M (峰值 72.79M) | 时间:00:00.02 | Syncing door_l_4_b
+帧号:1 | 内存:72.82M (峰值 72.82M) | 时间:00:00.02 | Syncing door_l_4_b_glass
+帧号:1 | 内存:72.83M (峰值 72.83M) | 时间:00:00.02 | Syncing door_r_0_a
+帧号:1 | 内存:72.86M (峰值 72.86M) | 时间:00:00.02 | Syncing door_r_0_a_glass
+帧号:1 | 内存:72.87M (峰值 72.87M) | 时间:00:00.02 | Syncing door_r_0_b
+帧号:1 | 内存:72.89M (峰值 72.89M) | 时间:00:00.02 | Syncing door_r_0_b_glass
+帧号:1 | 内存:72.90M (峰值 72.90M) | 时间:00:00.02 | Syncing door_r_1_a
+帧号:1 | 内存:72.93M (峰值 72.93M) | 时间:00:00.02 | Syncing door_r_1_a_glass
+帧号:1 | 内存:72.94M (峰值 72.94M) | 时间:00:00.02 | Syncing door_r_1_b
+帧号:1 | 内存:72.97M (峰值 72.97M) | 时间:00:00.02 | Syncing door_r_1_b_glass
+帧号:1 | 内存:72.97M (峰值 72.97M) | 时间:00:00.02 | Syncing door_r_2_a
+帧号:1 | 内存:73.00M (峰值 73.00M) | 时间:00:00.02 | Syncing door_r_2_a_glass
+帧号:1 | 内存:73.01M (峰值 73.01M) | 时间:00:00.02 | Syncing door_r_2_b
+帧号:1 | 内存:73.04M (峰值 73.04M) | 时间:00:00.02 | Syncing door_r_2_b_glass
+帧号:1 | 内存:73.05M (峰值 73.05M) | 时间:00:00.02 | Syncing door_r_3_a
+帧号:1 | 内存:73.07M (峰值 73.07M) | 时间:00:00.02 | Syncing door_r_3_a_glass
+帧号:1 | 内存:73.08M (峰值 73.08M) | 时间:00:00.02 | Syncing door_r_3_b
+帧号:1 | 内存:73.11M (峰值 73.11M) | 时间:00:00.02 | Syncing door_r_3_b_glass
+帧号:1 | 内存:73.12M (峰值 73.12M) | 时间:00:00.02 | Syncing door_r_4_a
+帧号:1 | 内存:73.15M (峰值 73.15M) | 时间:00:00.02 | Syncing door_r_4_a_glass
+帧号:1 | 内存:73.16M (峰值 73.16M) | 时间:00:00.02 | Syncing door_r_4_b
+帧号:1 | 内存:73.18M (峰值 73.18M) | 时间:00:00.02 | Syncing door_r_4_b_glass
+帧号:1 | 内存:73.19M (峰值 73.19M) | 时间:00:00.02 | Syncing cab_glazing
+帧号:1 | 内存:73.20M (峰值 73.20M) | 时间:00:00.02 | Syncing depot_lights
+帧号:1 | 内存:73.25M (峰值 73.25M) | 时间:00:00.02 | Syncing cab_bogie
+帧号:1 | 内存:73.87M (峰值 73.89M) | 时间:00:00.02 | Syncing cab_bogie.001
+帧号:1 | 内存:71.38M (峰值 73.89M) | 时间:00:00.02 | Rendering 1 / 48 samples
+帧号:1 | 内存:66.82M (峰值 73.89M) | 时间:00:00.12 | Rendering 26 / 48 samples
+帧号:1 | 内存:66.82M (峰值 73.89M) | 时间:00:00.19 | Rendering 48 / 48 samples
+Saved: 'E:\MC 1.20.1 联机用\.minecraft\versions\1.20.4-Fabric\resourcepacks\济南地铁4号线-6.1sol\preview\v14_interior.png'
+ Time: 00:00.32 (Saving: 00:00.12)
+
+帧号:1 | 内存:65.48M (峰值 65.65M) | 时间:00:00.00 | Syncing Studio floor
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光.001
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光.002
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 摄像机
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing interior
+帧号:1 | 内存:68.54M (峰值 68.62M) | 时间:00:00.01 | Syncing shell
+帧号:1 | 内存:70.76M (峰值 70.81M) | 时间:00:00.01 | Syncing lights
+帧号:1 | 内存:70.77M (峰值 70.81M) | 时间:00:00.01 | Syncing window
+帧号:1 | 内存:70.81M (峰值 70.81M) | 时间:00:00.01 | Syncing seats
+帧号:1 | 内存:72.31M (峰值 72.34M) | 时间:00:00.01 | Syncing door_l_0_a
+帧号:1 | 内存:72.34M (峰值 72.34M) | 时间:00:00.01 | Syncing door_l_0_a_glass
+帧号:1 | 内存:72.44M (峰值 72.44M) | 时间:00:00.01 | Syncing door_l_0_b
+帧号:1 | 内存:72.47M (峰值 72.47M) | 时间:00:00.01 | Syncing door_l_0_b_glass
+帧号:1 | 内存:72.47M (峰值 72.47M) | 时间:00:00.01 | Syncing lcd_mounts
+帧号:1 | 内存:72.54M (峰值 72.54M) | 时间:00:00.01 | Syncing door_l_1_a
+帧号:1 | 内存:72.57M (峰值 72.57M) | 时间:00:00.01 | Syncing door_l_1_a_glass
+帧号:1 | 内存:72.58M (峰值 72.58M) | 时间:00:00.01 | Syncing door_l_1_b
+帧号:1 | 内存:72.60M (峰值 72.60M) | 时间:00:00.01 | Syncing door_l_1_b_glass
+帧号:1 | 内存:72.61M (峰值 72.61M) | 时间:00:00.01 | Syncing door_l_2_a
+帧号:1 | 内存:72.64M (峰值 72.64M) | 时间:00:00.01 | Syncing door_l_2_a_glass
+帧号:1 | 内存:72.65M (峰值 72.65M) | 时间:00:00.01 | Syncing door_l_2_b
+帧号:1 | 内存:72.68M (峰值 72.68M) | 时间:00:00.01 | Syncing door_l_2_b_glass
+帧号:1 | 内存:72.69M (峰值 72.69M) | 时间:00:00.01 | Syncing door_l_3_a
+帧号:1 | 内存:72.71M (峰值 72.71M) | 时间:00:00.01 | Syncing door_l_3_a_glass
+帧号:1 | 内存:72.72M (峰值 72.72M) | 时间:00:00.01 | Syncing door_l_3_b
+帧号:1 | 内存:72.75M (峰值 72.75M) | 时间:00:00.01 | Syncing door_l_3_b_glass
+帧号:1 | 内存:72.76M (峰值 72.76M) | 时间:00:00.01 | Syncing door_l_4_a
+帧号:1 | 内存:72.78M (峰值 72.78M) | 时间:00:00.01 | Syncing door_l_4_a_glass
+帧号:1 | 内存:72.79M (峰值 72.79M) | 时间:00:00.01 | Syncing door_l_4_b
+帧号:1 | 内存:72.82M (峰值 72.82M) | 时间:00:00.01 | Syncing door_l_4_b_glass
+帧号:1 | 内存:72.83M (峰值 72.83M) | 时间:00:00.01 | Syncing door_r_0_a
+帧号:1 | 内存:72.86M (峰值 72.86M) | 时间:00:00.01 | Syncing door_r_0_a_glass
+帧号:1 | 内存:72.87M (峰值 72.87M) | 时间:00:00.01 | Syncing door_r_0_b
+帧号:1 | 内存:72.89M (峰值 72.89M) | 时间:00:00.01 | Syncing door_r_0_b_glass
+帧号:1 | 内存:72.90M (峰值 72.90M) | 时间:00:00.01 | Syncing door_r_1_a
+帧号:1 | 内存:72.93M (峰值 72.93M) | 时间:00:00.01 | Syncing door_r_1_a_glass
+帧号:1 | 内存:72.94M (峰值 72.94M) | 时间:00:00.01 | Syncing door_r_1_b
+帧号:1 | 内存:72.97M (峰值 72.97M) | 时间:00:00.01 | Syncing door_r_1_b_glass
+帧号:1 | 内存:72.98M (峰值 72.98M) | 时间:00:00.01 | Syncing door_r_2_a
+帧号:1 | 内存:73.00M (峰值 73.00M) | 时间:00:00.01 | Syncing door_r_2_a_glass
+帧号:1 | 内存:73.01M (峰值 73.01M) | 时间:00:00.01 | Syncing door_r_2_b
+帧号:1 | 内存:73.04M (峰值 73.04M) | 时间:00:00.01 | Syncing door_r_2_b_glass
+帧号:1 | 内存:73.05M (峰值 73.05M) | 时间:00:00.01 | Syncing door_r_3_a
+帧号:1 | 内存:73.08M (峰值 73.08M) | 时间:00:00.01 | Syncing door_r_3_a_glass
+帧号:1 | 内存:73.08M (峰值 73.08M) | 时间:00:00.01 | Syncing door_r_3_b
+帧号:1 | 内存:73.11M (峰值 73.11M) | 时间:00:00.01 | Syncing door_r_3_b_glass
+帧号:1 | 内存:73.12M (峰值 73.12M) | 时间:00:00.01 | Syncing door_r_4_a
+帧号:1 | 内存:73.15M (峰值 73.15M) | 时间:00:00.01 | Syncing door_r_4_a_glass
+帧号:1 | 内存:73.16M (峰值 73.16M) | 时间:00:00.01 | Syncing door_r_4_b
+帧号:1 | 内存:73.18M (峰值 73.18M) | 时间:00:00.01 | Syncing door_r_4_b_glass
+帧号:1 | 内存:73.19M (峰值 73.19M) | 时间:00:00.01 | Syncing cab_glazing
+帧号:1 | 内存:73.21M (峰值 73.21M) | 时间:00:00.01 | Syncing depot_lights
+帧号:1 | 内存:73.25M (峰值 73.25M) | 时间:00:00.01 | Syncing cab_bogie
+帧号:1 | 内存:73.87M (峰值 73.89M) | 时间:00:00.01 | Syncing cab_bogie.001
+帧号:1 | 内存:71.38M (峰值 73.89M) | 时间:00:00.01 | Rendering 1 / 48 samples
+帧号:1 | 内存:66.82M (峰值 73.89M) | 时间:00:00.14 | Rendering 26 / 48 samples
+帧号:1 | 内存:66.82M (峰值 73.89M) | 时间:00:00.22 | Rendering 48 / 48 samples
+Saved: 'E:\MC 1.20.1 联机用\.minecraft\versions\1.20.4-Fabric\resourcepacks\济南地铁4号线-6.1sol\preview\v14_exterior.png'
+ Time: 00:00.35 (Saving: 00:00.11)
+
+帧号:1 | 内存:65.48M (峰值 65.66M) | 时间:00:00.00 | Syncing Studio floor
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光.001
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 面光.002
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing 摄像机
+帧号:1 | 内存:65.48M (峰值 65.69M) | 时间:00:00.00 | Syncing interior
+帧号:1 | 内存:68.54M (峰值 68.62M) | 时间:00:00.01 | Syncing shell
+帧号:1 | 内存:70.76M (峰值 70.81M) | 时间:00:00.01 | Syncing lights
+帧号:1 | 内存:70.77M (峰值 70.81M) | 时间:00:00.01 | Syncing window
+帧号:1 | 内存:70.81M (峰值 70.81M) | 时间:00:00.01 | Syncing seats
+帧号:1 | 内存:72.31M (峰值 72.35M) | 时间:00:00.01 | Syncing door_l_0_a
+帧号:1 | 内存:72.34M (峰值 72.35M) | 时间:00:00.01 | Syncing door_l_0_a_glass
+帧号:1 | 内存:72.44M (峰值 72.44M) | 时间:00:00.01 | Syncing door_l_0_b
+帧号:1 | 内存:72.47M (峰值 72.47M) | 时间:00:00.01 | Syncing door_l_0_b_glass
+帧号:1 | 内存:72.48M (峰值 72.48M) | 时间:00:00.01 | Syncing lcd_mounts
+帧号:1 | 内存:72.54M (峰值 72.54M) | 时间:00:00.01 | Syncing door_l_1_a
+帧号:1 | 内存:72.57M (峰值 72.57M) | 时间:00:00.01 | Syncing door_l_1_a_glass
+帧号:1 | 内存:72.58M (峰值 72.58M) | 时间:00:00.01 | Syncing door_l_1_b
+帧号:1 | 内存:72.61M (峰值 72.61M) | 时间:00:00.01 | Syncing door_l_1_b_glass
+帧号:1 | 内存:72.61M (峰值 72.61M) | 时间:00:00.01 | Syncing door_l_2_a
+帧号:1 | 内存:72.64M (峰值 72.64M) | 时间:00:00.01 | Syncing door_l_2_a_glass
+帧号:1 | 内存:72.65M (峰值 72.65M) | 时间:00:00.01 | Syncing door_l_2_b
+帧号:1 | 内存:72.68M (峰值 72.68M) | 时间:00:00.01 | Syncing door_l_2_b_glass
+帧号:1 | 内存:72.69M (峰值 72.69M) | 时间:00:00.01 | Syncing door_l_3_a
+帧号:1 | 内存:72.71M (峰值 72.71M) | 时间:00:00.01 | Syncing door_l_3_a_glass
+帧号:1 | 内存:72.72M (峰值 72.72M) | 时间:00:00.01 | Syncing door_l_3_b
+帧号:1 | 内存:72.75M (峰值 72.75M) | 时间:00:00.01 | Syncing door_l_3_b_glass
+帧号:1 | 内存:72.76M (峰值 72.76M) | 时间:00:00.01 | Syncing door_l_4_a
+帧号:1 | 内存:72.79M (峰值 72.79M) | 时间:00:00.01 | Syncing door_l_4_a_glass
+帧号:1 | 内存:72.80M (峰值 72.80M) | 时间:00:00.01 | Syncing door_l_4_b
+帧号:1 | 内存:72.82M (峰值 72.82M) | 时间:00:00.01 | Syncing door_l_4_b_glass
+帧号:1 | 内存:72.83M (峰值 72.83M) | 时间:00:00.01 | Syncing door_r_0_a
+帧号:1 | 内存:72.86M (峰值 72.86M) | 时间:00:00.01 | Syncing door_r_0_a_glass
+帧号:1 | 内存:72.87M (峰值 72.87M) | 时间:00:00.01 | Syncing door_r_0_b
+帧号:1 | 内存:72.90M (峰值 72.90M) | 时间:00:00.01 | Syncing door_r_0_b_glass
+帧号:1 | 内存:72.90M (峰值 72.90M) | 时间:00:00.01 | Syncing door_r_1_a
+帧号:1 | 内存:72.93M (峰值 72.93M) | 时间:00:00.01 | Syncing door_r_1_a_glass
+帧号:1 | 内存:72.94M (峰值 72.94M) | 时间:00:00.01 | Syncing door_r_1_b
+帧号:1 | 内存:72.97M (峰值 72.97M) | 时间:00:00.01 | Syncing door_r_1_b_glass
+帧号:1 | 内存:72.98M (峰值 72.98M) | 时间:00:00.01 | Syncing door_r_2_a
+帧号:1 | 内存:73.00M (峰值 73.00M) | 时间:00:00.01 | Syncing door_r_2_a_glass
+帧号:1 | 内存:73.01M (峰值 73.01M) | 时间:00:00.01 | Syncing door_r_2_b
+帧号:1 | 内存:73.04M (峰值 73.04M) | 时间:00:00.01 | Syncing door_r_2_b_glass
+帧号:1 | 内存:73.05M (峰值 73.05M) | 时间:00:00.01 | Syncing door_r_3_a
+帧号:1 | 内存:73.08M (峰值 73.08M) | 时间:00:00.01 | Syncing door_r_3_a_glass
+帧号:1 | 内存:73.09M (峰值 73.09M) | 时间:00:00.01 | Syncing door_r_3_b
+帧号:1 | 内存:73.11M (峰值 73.11M) | 时间:00:00.01 | Syncing door_r_3_b_glass
+帧号:1 | 内存:73.12M (峰值 73.12M) | 时间:00:00.01 | Syncing door_r_4_a
+帧号:1 | 内存:73.15M (峰值 73.15M) | 时间:00:00.01 | Syncing door_r_4_a_glass
+帧号:1 | 内存:73.16M (峰值 73.16M) | 时间:00:00.01 | Syncing door_r_4_b
+帧号:1 | 内存:73.19M (峰值 73.19M) | 时间:00:00.01 | Syncing door_r_4_b_glass
+帧号:1 | 内存:73.20M (峰值 73.20M) | 时间:00:00.01 | Syncing cab_glazing
+帧号:1 | 内存:73.21M (峰值 73.21M) | 时间:00:00.01 | Syncing depot_lights
+帧号:1 | 内存:73.25M (峰值 73.25M) | 时间:00:00.01 | Syncing cab_bogie
+帧号:1 | 内存:73.88M (峰值 73.89M) | 时间:00:00.01 | Syncing cab_bogie.001
+帧号:1 | 内存:71.39M (峰值 73.89M) | 时间:00:00.01 | Rendering 1 / 48 samples
+帧号:1 | 内存:66.82M (峰值 73.89M) | 时间:00:00.11 | Rendering 26 / 48 samples
+帧号:1 | 内存:66.82M (峰值 73.89M) | 时间:00:00.16 | Rendering 48 / 48 samples
+Saved: 'E:\MC 1.20.1 联机用\.minecraft\versions\1.20.4-Fabric\resourcepacks\济南地铁4号线-6.1sol\preview\v14_seats.png'
+ Time: 00:00.29 (Saving: 00:00.11)
+
+hello kumopult!
+信息: 已保存 "jinan_line4_v14.blend"
+goodbye kumopult!

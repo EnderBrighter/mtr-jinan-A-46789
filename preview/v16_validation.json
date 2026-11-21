@@ -1,0 +1,10 @@
+{
+  "version": 16,
+  "gameVerified": false,
+  "doorGeometryUnchanged": true,
+  "whitePanelColor": "#EDF0E9",
+  "fixedAndMovingWhitePanelsUseSameOpaqueStage": "INTERIOR / CUTOUT_BRIGHT",
+  "allWhitePanelAlpha": 255,
+  "cabInnerLiningRays": 28,
+  "zipIntegrity": "PASS"
+}

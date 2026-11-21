@@ -1,0 +1,41 @@
+ # Thin rubber front door border, and windshield wipers, modelled instead of painted bars.
+ for x in [-.225,.225]:
+  a=front(x,2.10);d=front(x,3.34);m.rod('shell',(a[0],a[1],a[2]-.006),(d[0],d[1],d[2]-.006),.009,'rubber',6)
+ for side in [-1,1]:
+  for a,d in [((side*.82,2.20),(side*.50,2.70)),((side*.50,2.70),(side*.42,3.02))]:
+   a=front(*a);d=front(*d);m.rod('shell',(a[0],a[1],a[2]-.018),(d[0],d[1],d[2]-.018),.009,'black',6)
+  # Small upper marker-light bezel, without route-name typography on the nose.
+  for x,w,c in [(side*.83,.21,'light'),(side*.58,.10,'red')]:
+   v=front(x,3.32);b('shell',x,3.32,v[2]-.012,w+.025,.055,.015,'black');b('lights',x,3.32,v[2]-.023,w,.018,.008,c)
+ # Blade-shaped lamp clusters: nested planar rings, clear white inner light and red edge.
+ shape=[(.50,1.34),(.92,1.51),(1.09,1.99),(.91,1.87),(.78,1.60)]
+ for side in [-1,1]:
+  pts=[(side*x,y) for x,y in shape];cx=sum(x for x,y in pts)/len(pts);cy=sum(y for x,y in pts)/len(pts)
+  def inset(scale,offset):return [(front(cx+(x-cx)*scale,cy+(y-cy)*scale)[0],front(cx+(x-cx)*scale,cy+(y-cy)*scale)[1],front(cx+(x-cx)*scale,cy+(y-cy)*scale)[2]-offset) for x,y in pts]
+  m.poly('shell',inset(1.1,.014),'black');m.poly('shell',inset(.98,.020),'steel');m.poly('shell',inset(.81,.024),'roof')
+  for trace in [[(.52,1.37),(.91,1.54),(1.04,1.92)],[(.64,1.45),(.86,1.56),(.96,1.81)]]:
+   pp=[front(side*x,y) for x,y in trace]
+   for a,d in zip(pp,pp[1:]):m.rod('headlights',(a[0],a[1],a[2]-.031),(d[0],d[1],d[2]-.031),.012,'light',8)
+  # Red outer LED traces are separate from the headlight geometry.
+  pp=[front(side*.49,1.31),front(side*.95,1.49),front(side*1.12,2.00)]
+  for a,d in zip(pp,pp[1:]):m.rod('tail_lights',(a[0],a[1],a[2]-.029),(d[0],d[1],d[2]-.029),.008,'red',8)
+ # Anti-climber / concealed under-nose services, all inside the 25 m envelope.
+ for side in [-1,1]:
+  b('shell',side*.87,.94,-12.16,.58,.28,.24,'black')
+  for yy in [.85,.91,.97,1.03]:b('shell',side*.87,yy,-12.292,.44,.012,.012,'steel')
+ b('shell',0,.76,-12.23,.35,.26,.49,'black')
+ m.rod('shell',(0,.80,-12.35),(0,.80,-12.49),.13,'steel',16)
+ for side in [-1,1]:
+  m.rod('shell',(side*.15,.64,-12.25),(side*.23,.53,-12.36),.025,'rubber',8)
+ # Open view through a glazed cab partition, with a slim emergency door and shaped desk.
+ b('interior',0,1.25,-11.03,2.67,.50,.045,'white')
+ for x in [-1.31,-.42,.42,1.31]:b('interior',x,2.30,-11.04,.025,1.62,.025,'steel')
+ for x,w in [(-.87,.82),(0,.79),(.87,.82)]:b('window',x,2.30,-11.04,w,1.58,0,'glass')
+ b('interior',0,3.10,-11.04,2.67,.05,.045,'white')
+ desk=[(-.98,1.55),(-.98,1.74),(-.70,1.86),(.70,1.86),(.98,1.74),(.98,1.55)]
+ section('interior',desk,-11.95,-11.60,'steel')
+ for x in [-.48,0,.48]:b('interior',x,1.875,-11.78,.31,.018,.18,'black');b('interior',x,1.888,-11.78,.24,.004,.11,'glass')
+ # Vehicle number only, not a line name or destination on the front.
+ vs=[front(-.16,1.65),front(.16,1.65),front(.16,1.78),front(-.16,1.78)];vs=[(x,y,z-.008) for x,y,z in vs]
+ m.poly('shell',list(reversed(vs)),'white',list(reversed([(.17,268/512),(0,268/512),(0,210/512),(.17,210/512)])))
+

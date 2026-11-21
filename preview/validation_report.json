@@ -1,0 +1,19 @@
+{
+  "version": "detail_v2",
+  "vehicles": 4,
+  "resolved_resource_references": 80,
+  "door_regression": "passed",
+  "geometry_regression": "passed",
+  "mtr_bundled_obj_parser": "passed",
+  "blender_views": [
+    "cab_front",
+    "cab_overview",
+    "interior",
+    "doors_open",
+    "gangway_join",
+    "six_car_consist"
+  ],
+  "in_game_test_of_v2": "not_run_game_interface_unavailable",
+  "package": "dist/jinan_line4_detail_v2.zip",
+  "package_bytes": 3061512
+}

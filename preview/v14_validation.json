@@ -1,0 +1,13 @@
+{
+  "version": 14,
+  "gameVerified": false,
+  "doorGeometryAndMotionUnchanged": true,
+  "lcdWidth": 1.74,
+  "lcdVerticalHeight": 0.285,
+  "lcdRaisedFromV11": 0.21,
+  "roofClearanceAtHousingVertices": 0.015476190406843227,
+  "softWhite": "#E7EBE7",
+  "silver": "#D6DBDD",
+  "yellowSeatsSwapped": true,
+  "zipIntegrity": "PASS"
+}

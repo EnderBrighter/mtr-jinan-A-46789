@@ -1,0 +1,370 @@
+Compiled from "BlockbenchElement.java"
+public final class org.mtr.mod.resource.BlockbenchElement extends org.mtr.mod.generated.resource.BlockbenchElementSchema {
+  public org.mtr.mod.resource.BlockbenchElement(org.mtr.core.serializer.ReaderBase);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #15                 // Method org/mtr/mod/generated/resource/BlockbenchElementSchema."<init>":(Lorg/mtr/core/serializer/ReaderBase;)V
+       5: aload_0
+       6: aload_1
+       7: invokevirtual #18                 // Method updateData:(Lorg/mtr/core/serializer/ReaderBase;)V
+      10: return
+
+  public java.lang.String getUuid();
+    Code:
+       0: aload_0
+       1: getfield      #27                 // Field uuid:Ljava/lang/String;
+       4: areturn
+
+  public org.mtr.mapping.holder.Box setModelPart(org.mtr.mapping.mapper.ModelPartExtension, org.mtr.mod.resource.GroupTransformations, org.mtr.mod.resource.ModelDisplayPart, float);
+    Code:
+       0: aload_0
+       1: getfield      #37                 // Field origin:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+       4: iconst_0
+       5: dconst_0
+       6: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+       9: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+      12: checkcast     #39                 // class java/lang/Double
+      15: invokevirtual #53                 // Method java/lang/Double.floatValue:()F
+      18: fneg
+      19: fstore        5
+      21: aload_0
+      22: getfield      #37                 // Field origin:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+      25: iconst_1
+      26: dconst_0
+      27: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+      30: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+      33: checkcast     #39                 // class java/lang/Double
+      36: invokevirtual #53                 // Method java/lang/Double.floatValue:()F
+      39: fneg
+      40: fload         4
+      42: ldc           #54                 // float 16.0f
+      44: fmul
+      45: fsub
+      46: fstore        6
+      48: aload_0
+      49: getfield      #37                 // Field origin:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+      52: iconst_2
+      53: dconst_0
+      54: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+      57: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+      60: checkcast     #39                 // class java/lang/Double
+      63: invokevirtual #53                 // Method java/lang/Double.floatValue:()F
+      66: fstore        7
+      68: aload_0
+      69: getfield      #57                 // Field rotation:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+      72: iconst_0
+      73: dconst_0
+      74: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+      77: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+      80: checkcast     #39                 // class java/lang/Double
+      83: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+      86: dneg
+      87: invokestatic  #67                 // Method java/lang/Math.toRadians:(D)D
+      90: d2f
+      91: fstore        8
+      93: aload_0
+      94: getfield      #57                 // Field rotation:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+      97: iconst_1
+      98: dconst_0
+      99: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     102: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     105: checkcast     #39                 // class java/lang/Double
+     108: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+     111: dneg
+     112: invokestatic  #67                 // Method java/lang/Math.toRadians:(D)D
+     115: d2f
+     116: fstore        9
+     118: aload_0
+     119: getfield      #57                 // Field rotation:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     122: iconst_2
+     123: dconst_0
+     124: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     127: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     130: checkcast     #39                 // class java/lang/Double
+     133: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+     136: invokestatic  #67                 // Method java/lang/Math.toRadians:(D)D
+     139: d2f
+     140: fstore        10
+     142: new           #69                 // class org/mtr/mod/resource/GroupTransformations
+     145: dup
+     146: aload_2
+     147: aload_0
+     148: getfield      #37                 // Field origin:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     151: aload_0
+     152: getfield      #57                 // Field rotation:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     155: invokespecial #72                 // Method org/mtr/mod/resource/GroupTransformations."<init>":(Lorg/mtr/mod/resource/GroupTransformations;Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;)V
+     158: astore        11
+     160: aload         11
+     162: aload_1
+     163: fload         4
+     165: invokevirtual #76                 // Method org/mtr/mod/resource/GroupTransformations.create:(Lorg/mtr/mapping/mapper/ModelPartExtension;F)Lorg/mtr/mapping/mapper/ModelPartExtension;
+     168: astore        12
+     170: aload         12
+     172: aload_0
+     173: getfield      #80                 // Field uv_offset:Lorg/mtr/libraries/it/unimi/dsi/fastutil/longs/LongArrayList;
+     176: iconst_0
+     177: lconst_0
+     178: invokestatic  #85                 // Method java/lang/Long.valueOf:(J)Ljava/lang/Long;
+     181: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     184: checkcast     #82                 // class java/lang/Long
+     187: invokevirtual #89                 // Method java/lang/Long.intValue:()I
+     190: aload_0
+     191: getfield      #80                 // Field uv_offset:Lorg/mtr/libraries/it/unimi/dsi/fastutil/longs/LongArrayList;
+     194: iconst_1
+     195: lconst_0
+     196: invokestatic  #85                 // Method java/lang/Long.valueOf:(J)Ljava/lang/Long;
+     199: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     202: checkcast     #82                 // class java/lang/Long
+     205: invokevirtual #89                 // Method java/lang/Long.intValue:()I
+     208: invokevirtual #95                 // Method org/mtr/mapping/mapper/ModelPartExtension.setTextureUVOffset:(II)Lorg/mtr/mapping/mapper/ModelPartExtension;
+     211: pop
+     212: aload_0
+     213: getfield      #98                 // Field to:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     216: iconst_0
+     217: dconst_0
+     218: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     221: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     224: checkcast     #39                 // class java/lang/Double
+     227: invokevirtual #53                 // Method java/lang/Double.floatValue:()F
+     230: fneg
+     231: fload         5
+     233: fsub
+     234: fstore        13
+     236: aload_0
+     237: getfield      #98                 // Field to:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     240: iconst_1
+     241: dconst_0
+     242: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     245: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     248: checkcast     #39                 // class java/lang/Double
+     251: invokevirtual #53                 // Method java/lang/Double.floatValue:()F
+     254: fneg
+     255: fload         6
+     257: fsub
+     258: fload         4
+     260: ldc           #54                 // float 16.0f
+     262: fmul
+     263: fsub
+     264: fstore        14
+     266: aload_0
+     267: getfield      #101                // Field from:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     270: iconst_2
+     271: dconst_0
+     272: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     275: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     278: checkcast     #39                 // class java/lang/Double
+     281: invokevirtual #53                 // Method java/lang/Double.floatValue:()F
+     284: fload         7
+     286: fsub
+     287: fstore        15
+     289: aload_0
+     290: getfield      #98                 // Field to:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     293: iconst_0
+     294: dconst_0
+     295: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     298: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     301: checkcast     #39                 // class java/lang/Double
+     304: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+     307: aload_0
+     308: getfield      #101                // Field from:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     311: iconst_0
+     312: dconst_0
+     313: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     316: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     319: checkcast     #39                 // class java/lang/Double
+     322: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+     325: dsub
+     326: invokestatic  #105                // Method java/lang/Math.round:(D)J
+     329: l2i
+     330: istore        16
+     332: aload_0
+     333: getfield      #98                 // Field to:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     336: iconst_1
+     337: dconst_0
+     338: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     341: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     344: checkcast     #39                 // class java/lang/Double
+     347: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+     350: aload_0
+     351: getfield      #101                // Field from:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     354: iconst_1
+     355: dconst_0
+     356: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     359: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     362: checkcast     #39                 // class java/lang/Double
+     365: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+     368: dsub
+     369: invokestatic  #105                // Method java/lang/Math.round:(D)J
+     372: l2i
+     373: istore        17
+     375: aload_0
+     376: getfield      #98                 // Field to:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     379: iconst_2
+     380: dconst_0
+     381: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     384: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     387: checkcast     #39                 // class java/lang/Double
+     390: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+     393: aload_0
+     394: getfield      #101                // Field from:Lorg/mtr/libraries/it/unimi/dsi/fastutil/doubles/DoubleArrayList;
+     397: iconst_2
+     398: dconst_0
+     399: invokestatic  #43                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+     402: invokestatic  #49                 // InterfaceMethod org/mtr/core/tool/Utilities.getElement:(Ljava/util/List;ILjava/lang/Object;)Ljava/lang/Object;
+     405: checkcast     #39                 // class java/lang/Double
+     408: invokevirtual #61                 // Method java/lang/Double.doubleValue:()D
+     411: dsub
+     412: invokestatic  #105                // Method java/lang/Math.round:(D)J
+     415: l2i
+     416: istore        18
+     418: aload         12
+     420: fload         13
+     422: fload         14
+     424: fload         15
+     426: iload         16
+     428: iload         17
+     430: iload         18
+     432: aload_0
+     433: getfield      #109                // Field inflate:D
+     436: d2f
+     437: aload_0
+     438: getfield      #113                // Field shade:Z
+     441: ifeq          451
+     444: aload_0
+     445: getfield      #116                // Field mirror_uv:Z
+     448: ifeq          455
+     451: iconst_1
+     452: goto          456
+     455: iconst_0
+     456: invokevirtual #122                // Method org/mtr/mapping/mapper/ModelPartExtension.addCuboid:(FFFIIIFZ)V
+     459: aload         11
+     461: aload_3
+     462: getfield      #126                // Field org/mtr/mod/resource/ModelDisplayPart.storedMatrixTransformations:Lorg/mtr/mod/render/StoredMatrixTransformations;
+     465: fload         4
+     467: invokevirtual #129                // Method org/mtr/mod/resource/GroupTransformations.create:(Lorg/mtr/mod/render/StoredMatrixTransformations;F)V
+     470: aload_3
+     471: getfield      #126                // Field org/mtr/mod/resource/ModelDisplayPart.storedMatrixTransformations:Lorg/mtr/mod/render/StoredMatrixTransformations;
+     474: fload         13
+     476: fload         14
+     478: fload         15
+     480: invokedynamic #149,  0            // InvokeDynamic #0:accept:(FFF)Ljava/util/function/Consumer;
+     485: invokevirtual #155                // Method org/mtr/mod/render/StoredMatrixTransformations.add:(Ljava/util/function/Consumer;)V
+     488: aload_3
+     489: iload         16
+     491: putfield      #159                // Field org/mtr/mod/resource/ModelDisplayPart.width:I
+     494: aload_3
+     495: iload         17
+     497: putfield      #162                // Field org/mtr/mod/resource/ModelDisplayPart.height:I
+     500: new           #164                // class org/mtr/mapping/holder/Vector3d
+     503: dup
+     504: fload         13
+     506: f2d
+     507: fload         14
+     509: f2d
+     510: fload         15
+     512: f2d
+     513: invokespecial #167                // Method org/mtr/mapping/holder/Vector3d."<init>":(DDD)V
+     516: fload         8
+     518: invokevirtual #171                // Method org/mtr/mapping/holder/Vector3d.rotateX:(F)Lorg/mtr/mapping/holder/Vector3d;
+     521: fload         9
+     523: invokevirtual #174                // Method org/mtr/mapping/holder/Vector3d.rotateY:(F)Lorg/mtr/mapping/holder/Vector3d;
+     526: fload         10
+     528: invokevirtual #177                // Method org/mtr/mapping/holder/Vector3d.rotateZ:(F)Lorg/mtr/mapping/holder/Vector3d;
+     531: astore        19
+     533: new           #164                // class org/mtr/mapping/holder/Vector3d
+     536: dup
+     537: fload         13
+     539: iload         16
+     541: i2f
+     542: fadd
+     543: f2d
+     544: fload         14
+     546: iload         17
+     548: i2f
+     549: fadd
+     550: f2d
+     551: fload         15
+     553: iload         18
+     555: i2f
+     556: fadd
+     557: f2d
+     558: invokespecial #167                // Method org/mtr/mapping/holder/Vector3d."<init>":(DDD)V
+     561: fload         8
+     563: invokevirtual #171                // Method org/mtr/mapping/holder/Vector3d.rotateX:(F)Lorg/mtr/mapping/holder/Vector3d;
+     566: fload         9
+     568: invokevirtual #174                // Method org/mtr/mapping/holder/Vector3d.rotateY:(F)Lorg/mtr/mapping/holder/Vector3d;
+     571: fload         10
+     573: invokevirtual #177                // Method org/mtr/mapping/holder/Vector3d.rotateZ:(F)Lorg/mtr/mapping/holder/Vector3d;
+     576: astore        20
+     578: new           #179                // class org/mtr/mapping/holder/Box
+     581: dup
+     582: aload         19
+     584: invokevirtual #182                // Method org/mtr/mapping/holder/Vector3d.getXMapped:()D
+     587: fload         5
+     589: f2d
+     590: dadd
+     591: dneg
+     592: ldc2_w        #183                // double 16.0d
+     595: ddiv
+     596: aload         19
+     598: invokevirtual #187                // Method org/mtr/mapping/holder/Vector3d.getYMapped:()D
+     601: fload         6
+     603: f2d
+     604: dadd
+     605: dneg
+     606: ldc2_w        #183                // double 16.0d
+     609: ddiv
+     610: aload         19
+     612: invokevirtual #190                // Method org/mtr/mapping/holder/Vector3d.getZMapped:()D
+     615: fload         7
+     617: f2d
+     618: dadd
+     619: dneg
+     620: ldc2_w        #183                // double 16.0d
+     623: ddiv
+     624: aload         20
+     626: invokevirtual #182                // Method org/mtr/mapping/holder/Vector3d.getXMapped:()D
+     629: fload         5
+     631: f2d
+     632: dadd
+     633: dneg
+     634: ldc2_w        #183                // double 16.0d
+     637: ddiv
+     638: aload         20
+     640: invokevirtual #187                // Method org/mtr/mapping/holder/Vector3d.getYMapped:()D
+     643: fload         6
+     645: f2d
+     646: dadd
+     647: dneg
+     648: ldc2_w        #183                // double 16.0d
+     651: ddiv
+     652: aload         20
+     654: invokevirtual #190                // Method org/mtr/mapping/holder/Vector3d.getZMapped:()D
+     657: fload         7
+     659: f2d
+     660: dadd
+     661: dneg
+     662: ldc2_w        #183                // double 16.0d
+     665: ddiv
+     666: invokespecial #193                // Method org/mtr/mapping/holder/Box."<init>":(DDDDDD)V
+     669: areturn
+
+  private static void lambda$setModelPart$0(float, float, float, org.mtr.mapping.mapper.GraphicsHolder);
+    Code:
+       0: aload_3
+       1: fload_0
+       2: ldc           #54                 // float 16.0f
+       4: fdiv
+       5: f2d
+       6: fload_1
+       7: ldc           #54                 // float 16.0f
+       9: fdiv
+      10: f2d
+      11: fload_2
+      12: ldc           #54                 // float 16.0f
+      14: fdiv
+      15: f2d
+      16: invokevirtual #220                // Method org/mtr/mapping/mapper/GraphicsHolder.translate:(DDD)V
+      19: return
+}

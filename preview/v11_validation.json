@@ -1,0 +1,37 @@
+{
+  "vehicles": 20,
+  "scripts": 5,
+  "resourceReferencesChecked": 440,
+  "palette": {
+    "4": [
+      "B1D93E",
+      "9DD91D"
+    ],
+    "6": [
+      "55B7D5",
+      "74BDCF"
+    ],
+    "7": [
+      "C65054",
+      "CB7474"
+    ],
+    "8": [
+      "8965AE",
+      "9A83B6"
+    ],
+    "9": [
+      "B69452",
+      "BBA071"
+    ]
+  },
+  "logoRemovedAllLines": true,
+  "yellowUnchanged": true,
+  "embeddedTexturesMatch": true,
+  "zipIntegrityAndReferences": true,
+  "inGameTested": false,
+  "audioDeferredByUser": true,
+  "creditInPackMetadata": true,
+  "versionsInPackMetadata": true,
+  "newZipsContainNoMarkdown": true,
+  "otherLineTexturesUnchanged": true
+}

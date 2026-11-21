@@ -1,0 +1,15 @@
+{
+  "version": 10,
+  "cause": "Coincident visible planes on outer silver header, white inner cap and yellow lens",
+  "fix": "Outward faces separated at 1.496/1.498/1.500 m; white cap ends at 1.480 m",
+  "checks": [
+    "30 door headers and face separation PASS",
+    "Continuous native door sweep PASS",
+    "Native door bounds and 101 opening samples PASS",
+    "Blender model and preview regenerated",
+    "ZIP content matches workspace assets"
+  ],
+  "in_game": "Not reloaded/verified for this revision",
+  "zip": "dist\\jinan_line4_lcd_v10.zip",
+  "sha256": "e1b73db8410437272e8109fcea48c3912e91f4b45b4cd19a51b4e4456fcfc76e"
+}

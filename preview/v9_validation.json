@@ -1,0 +1,12 @@
+{
+  "version": 9,
+  "side_windows": "PASS: aft-shifted sloped side apertures; 5 planar panes retained",
+  "green_surround": "Adjusted leading green border toward the raked front profile; glass position preserved",
+  "surface_validation": "PASS: projected polygon areas and 35 front-facing rays",
+  "door_sweep": "PASS: no continuous swept collisions",
+  "dimensions": "PASS: 25m pitch and <=3m width retained",
+  "blender": "Updated source/jinan_line4.blend and side/three-quarter previews",
+  "in_game": "Not reloaded or verified in Minecraft for this revision",
+  "zip": "dist\\jinan_line4_lcd_v9.zip",
+  "sha256": "da7fd00f2081a2592e4b569f251ecb27d37087b8fe01553ea67cae969aa34893"
+}

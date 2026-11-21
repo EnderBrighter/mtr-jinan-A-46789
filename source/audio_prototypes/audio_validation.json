@@ -1,0 +1,44 @@
+{
+  "door_open_generic": {
+    "seconds": 2.25,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peakDbfs": -3.0,
+    "rmsDbfs": -20.02302301521929
+  },
+  "door_close_generic": {
+    "seconds": 4.0,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peakDbfs": -3.0,
+    "rmsDbfs": -15.966645750034292
+  },
+  "traction_start_generic": {
+    "seconds": 13.0,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peakDbfs": -3.0,
+    "rmsDbfs": -10.645511676472047
+  },
+  "traction_brake_generic": {
+    "seconds": 13.0,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peakDbfs": -3.0,
+    "rmsDbfs": -14.545217794075644
+  },
+  "door_demo_generic": {
+    "seconds": 6.75,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peakDbfs": -3.0,
+    "rmsDbfs": -18.829952139259643
+  },
+  "traction_demo_generic": {
+    "seconds": 26.5,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peakDbfs": -3.0,
+    "rmsDbfs": -13.89540562159346
+  }
+}
