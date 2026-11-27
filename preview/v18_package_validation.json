@@ -1,0 +1,34 @@
+[
+  {
+    "file": "jinan_line4_no_logo_v18.zip",
+    "bytes": 3501044,
+    "vehicles": 4,
+    "changedEntries": [
+      "pack.mcmeta",
+      "assets/mtr/jinan_line4/models/motor.obj",
+      "assets/mtr/jinan_line4/scripts/lcd.js"
+    ],
+    "integrity": "PASS",
+    "matchesCurrentAssets": true
+  },
+  {
+    "file": "jinan_lines_4_6_7_8_9_v18.zip",
+    "bytes": 17492528,
+    "vehicles": 20,
+    "changedEntries": [
+      "pack.mcmeta",
+      "assets/mtr/jinan_line4/models/motor.obj",
+      "assets/mtr/jinan_line4/scripts/lcd.js",
+      "assets/mtr/jinan_line6/models/motor.obj",
+      "assets/mtr/jinan_line6/scripts/lcd.js",
+      "assets/mtr/jinan_line7/models/motor.obj",
+      "assets/mtr/jinan_line7/scripts/lcd.js",
+      "assets/mtr/jinan_line8/models/motor.obj",
+      "assets/mtr/jinan_line8/scripts/lcd.js",
+      "assets/mtr/jinan_line9/models/motor.obj",
+      "assets/mtr/jinan_line9/scripts/lcd.js"
+    ],
+    "integrity": "PASS",
+    "matchesCurrentAssets": true
+  }
+]

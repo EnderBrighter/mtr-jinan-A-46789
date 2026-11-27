@@ -249,9 +249,9 @@ def build(Mesh,cab=False,panto=False):
   b('shell',0,3.73,8.3,1.1,.10,1.55,'steel')
   for x in [-.43,.43]:
    for z in [7.75,8.85]:m.rod('shell',(x,3.71,z),(x,3.93,z),.065,'white',10)
-   m.rod('shell',(x,3.94,7.8),(x,4.20,8.65),.028,'black',10)
-   m.rod('shell',(x,4.20,8.65),(x,4.48,7.85),.022,'steel',10)
-  b('shell',0,4.49,7.85,1.66,.035,.16,'black')
+   m.rod('shell',(x,3.94,7.8),(x,4.45,8.65),.028,'black',10)
+   m.rod('shell',(x,4.45,8.65),(x,4.98,7.85),.022,'steel',10)
+  b('shell',0,4.99,7.85,1.66,.035,.16,'black')
   m.rod('shell',(-.48,3.93,8.2),(.48,3.93,8.2),.025,'steel',8)
  if cab:build_cab(m,roof,section,strip)
  return m

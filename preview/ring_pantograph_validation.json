@@ -1,0 +1,24 @@
+{
+  "runtimeFilesChanged": [
+    "assets/mtr/jinan_line4/models/motor.obj",
+    "assets/mtr/jinan_line4/scripts/lcd.js",
+    "assets/mtr/jinan_line6/models/motor.obj",
+    "assets/mtr/jinan_line6/scripts/lcd.js",
+    "assets/mtr/jinan_line7/models/motor.obj",
+    "assets/mtr/jinan_line7/scripts/lcd.js",
+    "assets/mtr/jinan_line8/models/motor.obj",
+    "assets/mtr/jinan_line8/scripts/lcd.js",
+    "assets/mtr/jinan_line9/models/motor.obj",
+    "assets/mtr/jinan_line9/scripts/lcd.js"
+  ],
+  "allOtherAssetHashesUnchanged": true,
+  "changedMotorPolygons": 54,
+  "onlyPantographArmsAndShoeChanged": true,
+  "shoeHeightBefore": 4.49,
+  "shoeHeightAfter": 4.99,
+  "gameVerified": false,
+  "lcdRuntime": "Installed JCM 2.3.0 Rhino / Java AWT",
+  "linearPreviewFilesByteIdentical": 35,
+  "circularChecks": "PASS: explicit direction states; duplicate endpoint arrival; linear repeated stops; two closed end joins; direction mirroring; wrapped single-row local map; 1-60 stations",
+  "existingLcdRegressionSuite": "PASS"
+}

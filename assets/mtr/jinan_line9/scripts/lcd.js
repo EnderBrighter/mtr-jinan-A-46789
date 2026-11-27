@@ -22,13 +22,18 @@ function circle(g,x,y,r,c){col(g,c);g.fill(new java.awt.geom.Ellipse2D.Double(x-
 function badge(g,s,x,y,c,w){rect(g,x,y,w,22,c);text(g,names(s)[0],x+5,y+17,15,0xffffff,w-10,true);}
 function polygon(g,points,c){col(g,c);var p=new java.awt.geom.Path2D.Double();p.moveTo(points[0][0],points[0][1]);for(var i=1;i<points.length;i++)p.lineTo(points[i][0],points[i][1]);p.closePath();g.fill(p);}
 function rounded(g,x,y,w,h,c,r){col(g,c);g.fill(new java.awt.geom.RoundRectangle2D.Double(x,y,w,h,r,r));}
+function circularDirection(mode){return mode==='CLOCKWISE'?'顺时针|Clockwise':mode==='ANTICLOCKWISE'?'逆时针|Anticlockwise':'';}
 function snapshot(v){
  var onRoute=v.isOnRoute(),raw=v.getThisRouteStops(),stops=list(raw),progress=v.getRailProgress(),next=Number(v.getNextStopIndex(raw,0.5)),nearest=-1,delta=Infinity;
  for(var i=0;i<stops.length;i++){var dist=Number(stops[i].distance);if(dist>=0&&Math.abs(dist-progress)<delta){delta=Math.abs(dist-progress);nearest=i;}}
  var arrived=Math.abs(v.getSpeedMs())<LCD.stoppedSpeed&&nearest>=0&&delta<=LCD.arrivalTolerance&&(v.getDoorValue()>0||v.getTotalDwellTime()>=0);
  var index=arrived?nearest:Math.max(0,Math.min(next,Math.max(0,stops.length-1))),current=stops[index],route=onRoute&&current?current.route:null;
  var data=stops.map(function(s,i){return{name:s.station?String(s.station.getName()):String(s.name||'站名加载中|Loading station'),color:s.route?Number(s.route.getColor()):Number(LCD.defaultColor),transfers:list(s.routeInterchanges).map(function(r){return{name:String(r.name),color:Number(r.color)};})};});
- return{stops:data,index:index,arrived:arrived,onRoute:onRoute,ready:v.isStopsDataFetched(),line:route?String(route.getName()):'',color:route?Number(route.getColor()):Number(LCD.defaultColor),origin:data.length?data[0].name:'',destination:current?String(current.destinationName||''):'',doorValue:Number(v.getDoorValue()),anim:Date.now()/1000,phase:Math.floor(Date.now()/1000/LCD.arrivalPageSeconds)%2,blink:Math.floor(Date.now()/1000)%2,reversed:v.isReversed()};
+ // Only an explicit MTR circular state makes this a loop; repeated linear stops remain intact.
+ var mode=route&&typeof route.getCircularState==='function'?String(route.getCircularState()):'',direction=circularDirection(mode),circular=!!direction;
+ if(circular&&data.length>2&&data[0].name===data[data.length-1].name)data.pop();
+ if(circular&&data.length)index=index%data.length;
+ return{circular:circular,direction:direction,mode:mode,stops:data,index:index,arrived:arrived,onRoute:onRoute,ready:v.isStopsDataFetched(),line:route?String(route.getName()):'',color:route?Number(route.getColor()):Number(LCD.defaultColor),origin:data.length?data[0].name:'',destination:current?String(current.destinationName||''):'',doorValue:Number(v.getDoorValue()),anim:Date.now()/1000,phase:Math.floor(Date.now()/1000/LCD.arrivalPageSeconds)%2,blink:Math.floor(Date.now()/1000)%2,reversed:v.isReversed()};
 }
 function doorKey(v,car,side,z){
  // Platform-query X is opposite the LCD render X in this vehicle coordinate convention.
@@ -42,21 +47,24 @@ function header(g,d){
  rect(g,0,0,2048,70,d.color); // logo area intentionally blank
  pair(g,d.line||'线路信息|Route information',285,32,29,0xffffff,290);rect(g,610,0,810,70,0xf7f8fa);
  text(g,d.arrived?'到达站':'下一站',630,31,25,INK,140,true);text(g,d.arrived?'Arrived':'Next station',630,54,13,INK,140,false);
- pair(g,d.stops.length?d.stops[d.index].name:'等待线路数据|Waiting for route data',815,33,32,INK,575);pair(g,d.origin||'',1440,30,20,0xffffff,155);text(g,'›››',1605+5*((d.anim||0)%1),43,25,0xffffff,50,true);pair(g,d.destination,1665,30,20,0xffffff,160);
+ pair(g,d.stops.length?d.stops[d.index].name:'等待线路数据|Waiting for route data',815,33,32,INK,575);if(d.circular){pair(g,d.direction,1440,30,24,0xffffff,375);}else{pair(g,d.origin||'',1440,30,20,0xffffff,155);text(g,'›››',1605+5*((d.anim||0)%1),43,25,0xffffff,50,true);pair(g,d.destination,1665,30,20,0xffffff,160);}
 }
-function routeMap(g,d,x,y,w,h,start,end,rows){
- rows=Number(rows);var n=end-start;if(n<1)return;var rc=rows===1?n:Math.ceil(n/2),margin=55,rightMargin=165,ys=rows===1?[y+47]:[y+31,y+h/2+22],pts=[];
- for(var j=0;j<n;j++){var row=Math.floor(j/rc),k=j%rc,count=Math.min(rc,n-row*rc);var xx=x+margin+(w-margin-rightMargin)*(rows===2&&row===1?1-k/Math.max(1,count-1):k/Math.max(1,count-1));pts.push([xx,ys[row],row]);}
- for(var j=1;j<n;j++){var a=pts[j-1],b=pts[j],i=start+j,c=i<=d.index?GREY:d.stops[i].color;
+function routeMap(g,d,x,y,w,h,start,end,rows,local){
+ var loop=d.circular&&!local,reverse=loop&&d.mode==='ANTICLOCKWISE';
+ rows=loop?2:Number(rows);var n=end-start;if(n<1)return;var rc=rows===1?n:Math.ceil(n/2),margin=55,rightMargin=165,ys=rows===1?[y+47]:[y+31,y+h/2+22],pts=[];
+ for(var j=0;j<n;j++){var row=Math.floor(j/rc),k=j%rc,count=Math.min(rc,n-row*rc);var xx=x+margin+(w-margin-rightMargin)*(rows===2&&row===1?1-k/Math.max(1,count-1):k/Math.max(1,count-1));if(reverse)xx=2*x+w+margin-rightMargin-xx;pts.push([xx,ys[row],row]);}
+ function stationIndex(j){return ((start+j)%d.stops.length+d.stops.length)%d.stops.length;}
+ function passed(i){if(!d.circular)return i<d.index;var behind=(d.index-i+d.stops.length)%d.stops.length;return behind>0&&behind<=Math.min(4,Math.floor((d.stops.length-1)/2));}
+ for(var j=1;j<n+(loop?1:0);j++){var a=pts[j-1],b=pts[j%n],i=stationIndex(j%n),c=(d.circular?passed(i):i<=d.index)?GREY:d.stops[i].color;
   if(a[2]===b[2]){line(g,a[0],a[1],b[0],b[1],c,9);var flow=i<=d.index?.5:(.15+.7*((d.anim||0)/LCD.animationSeconds%1));text(g,b[0]>a[0]?'»':'«',a[0]+(b[0]-a[0])*flow-7,b[1]+6,18,0xffffff,24,true);}
-  else{var edge=x+w-25;line(g,a[0],a[1],edge,a[1],c,9);line(g,edge,a[1],edge,b[1],c,9);line(g,edge,b[1],b[0],b[1],c,9);}
+  else{var edge=(loop&&j===n)!==reverse?x+20:x+w-25;line(g,a[0],a[1],edge,a[1],c,9);line(g,edge,a[1],edge,b[1],c,9);line(g,edge,b[1],b[0],b[1],c,9);if(loop){var cy=(a[1]+b[1])/2,flow=b[1]>a[1]?1:-1;polygon(g,[[edge-4,cy-4*flow],[edge+4,cy-4*flow],[edge,cy+4*flow]],0xffffff);}}
  }
- for(var j=0;j<n;j++){var i=start+j,p=pts[j],s=d.stops[i],passed=i<d.index,c=passed?GREY:s.color;
+ for(var j=0;j<n;j++){var i=stationIndex(j),p=pts[j],s=d.stops[i],past=passed(i),c=past?GREY:s.color;
   circle(g,p[0],p[1],10,c);circle(g,p[0],p[1],7,0xffffff);if(i===d.index){circle(g,p[0],p[1],12,RED);circle(g,p[0],p[1],8,d.blink?RED:0xffffff);}
-  var tr=g.getTransform();g.translate(p[0]-5,p[1]+25);g.rotate(Math.PI/5);pair(g,s.name,0,0,rows===1?24:19,passed?GREY:(i===d.index?RED:INK),rows===1?160:123);g.setTransform(tr);
+  var tr=g.getTransform();g.translate(p[0]-5,p[1]+25);g.rotate(Math.PI/5);pair(g,s.name,0,0,rows===1?24:19,past?GREY:(i===d.index?RED:INK),rows===1?160:123);g.setTransform(tr);
   var ts=s.transfers||[];if(ts.length){var r=ts[Math.floor(Date.now()/4000)%ts.length];badge(g,r.name,p[0]-32,p[1]-30,r.color,64);}
  }
- if(start>0)text(g,'‹ 前 '+start+' 站',x+5,y+h-5,15,INK,160,false);if(end<d.stops.length)text(g,'后 '+(d.stops.length-end)+' 站 ›',x+w-150,y+h-5,15,INK,145,false);return pts;
+ if(!d.circular&&start>0)text(g,'‹ 前 '+start+' 站',x+5,y+h-5,15,INK,160,false);if(!d.circular&&end<d.stops.length)text(g,'后 '+(d.stops.length-end)+' 站 ›',x+w-150,y+h-5,15,INK,145,false);return pts;
 }
 function doorAnimation(d,own){
  if(!own||!(d.doorValue>0))return 0;
@@ -99,8 +107,8 @@ function stationDiagram(g,d,carCount){
 function paint(g,d,key,carCount){
  g.setRenderingHint(java.awt.RenderingHints.KEY_ANTIALIASING,java.awt.RenderingHints.VALUE_ANTIALIAS_ON);rect(g,0,0,2048,336,0xf7f8fa);header(g,d);
  if(!d.onRoute||!d.stops.length){text(g,d.onRoute?'正在获取线路与站点数据':'列车暂不载客',650,205,49,INK,1160,true);text(g,d.onRoute?'Loading route and station data':'Not in service',650,252,23,0x8c959c,1160,false);return;}
- if(d.arrived){doorIcon(g,key,d.color,d);stationDiagram(g,d,carCount);if(d.phase===0){pair(g,d.stops[d.index].name,1110,192,68,INK,880);var ts=d.stops[d.index].transfers;for(var i=0;i<Math.min(6,ts.length);i++)badge(g,ts[i].name,1110+i*145,276,ts[i].color,133);}else{var start=Math.max(0,Math.min(d.index-1,d.stops.length-6));routeMap(g,d,1060,104,965,206,start,Math.min(start+6,d.stops.length),1);}}
- else{var win=mapWindow(d.stops.length,d.index);routeMap(g,d,8,77,2032,251,win.start,win.end,win.rows);}
+ if(d.arrived){doorIcon(g,key,d.color,d);stationDiagram(g,d,carCount);if(d.phase===0){pair(g,d.stops[d.index].name,1110,192,68,INK,880);var ts=d.stops[d.index].transfers;for(var i=0;i<Math.min(6,ts.length);i++)badge(g,ts[i].name,1110+i*145,276,ts[i].color,133);}else{var start=d.circular?d.index-1:Math.max(0,Math.min(d.index-1,d.stops.length-6));routeMap(g,d,1060,104,965,206,start,d.circular?start+Math.min(6,d.stops.length):Math.min(start+6,d.stops.length),1,true);}}
+ else{var win=d.circular?{start:0,end:d.stops.length,rows:2}:mapWindow(d.stops.length,d.index);routeMap(g,d,8,77,2032,251,win.start,win.end,win.rows);}
 }
 function create(ctx,state,v){state.textures={};state.carLabels={};state.labelColor=null;state.calls=[];state.lastUpdate=0;}
 function screenCall(tex,side,z){
